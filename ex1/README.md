@@ -63,3 +63,5 @@ gem install numo-gnuplot
 ruby plot-test1.rb run-test1.csv
 ruby plot-test2.rb run-test2.csv
 ```
+
+`*.png, *.eps, *.emf` が作成される。
