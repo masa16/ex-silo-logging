@@ -29,7 +29,7 @@ NUMA node 0..7 にそれぞれ1つの PMEMモジュールが装着されてい�
 * スレッド数対トランザクションスループットの測定
 
 ```
-cd ex-silo-loggng/ex1
+cd ex-silo-logging/ex1
 ./run-test1.sh
 ```
 
