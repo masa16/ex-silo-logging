@@ -5,7 +5,7 @@
 
 ```
 git clone --recursive https://github.com/masa16/ccbench.git
-git clone --recursive https://github.com/masa16/ex-silo-logging.git
+git clone https://github.com/masa16/ex-silo-logging.git
 ```
 
 ## ビルド
@@ -16,7 +16,7 @@ cd ccbench/silo
 ./build_test.sh
 ```
 
-ディレクトリ `test_0log` と `test_nlog` の下に実行ファイル `silo.exe` を生成
+ディレクトリ `test_0log` と `test_nlog` の下に実行ファイル `silo.exe` を生成。
 
 ## PMEM の設定
 
@@ -33,7 +33,7 @@ cd ex-silo-loggng/ex1
 ./run-test1.sh
 ```
 
-`run-test1.csv` という結果ファイルを出力
+`run-test1.csv` という結果ファイルを出力。
 
 * バッファサイズ対トランザクションスループットの測定
 
@@ -41,11 +41,12 @@ cd ex-silo-loggng/ex1
 ./run-test2.sh
 ```
 
-`run-test2.csv` という結果ファイルを出力
+`run-test2.csv` という結果ファイルを出力。
 
 ## プロット
 
 プロットを実行するには、ruby と gnuplot と numo-gnuplot が必要。
+
 numo-gnuplot のインストール方法はコマンドラインで
 
 ```
