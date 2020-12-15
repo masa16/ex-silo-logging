@@ -1,4 +1,4 @@
-CCBench Silo logging 調査方法
+# CCBench Silo logging 調査方法
 田中昌宏　2020-12-15
 
 ## ソースコードの取得
@@ -16,13 +16,13 @@ cd ccbench/silo
 ./build_test.sh
 ```
 
-(ディレクトリ `test_0log` と `test_nlog` の下に実行ファイル `silo.exe` が生成)
+ディレクトリ `test_0log` と `test_nlog` の下に実行ファイル `silo.exe` を生成
 
 ## PMEM の設定
 
 NUMA node 0..7 にそれぞれ1つの PMEMモジュールが装着されている場合、
-fsdaxモードで `/mnt/pmem{0..7}` にマウントし、
-`/mnt/pmem{0..7}/$USER` というディレクトリを作成しておく。
+* fsdaxモードで `/mnt/pmem{0..7}` にマウントし、
+* `/mnt/pmem{0..7}/$USER` というディレクトリを作成しておく。
 
 ## ベンチマーク実行
 
@@ -33,7 +33,7 @@ cd ex-silo-loggng/ex1
 ./run-test1.sh
 ```
 
-(`run-test1.csv` という結果ファイルを出力)
+`run-test1.csv` という結果ファイルを出力
 
 * バッファサイズ対トランザクションスループットの測定
 
@@ -41,7 +41,7 @@ cd ex-silo-loggng/ex1
 ./run-test2.sh
 ```
 
-(`run-test2.csv` という結果ファイルを出力)
+`run-test2.csv` という結果ファイルを出力
 
 ## プロット
 
@@ -59,4 +59,4 @@ gem install numo-gnuplot
 ```
 ruby plot1.rb run-test1.csv
 ruby plot2.rb run-test2.csv
-``
+```
