@@ -58,6 +58,6 @@ gem install numo-gnuplot
 * プロットの実行：
 
 ```
-ruby plot1.rb run-test1.csv
-ruby plot2.rb run-test2.csv
+ruby plot-test1.rb run-test1.csv
+ruby plot-test2.rb run-test2.csv
 ```
