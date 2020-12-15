@@ -13,12 +13,12 @@ run() {
       if [ $w -gt $logger_per_node ]; then
         sleep 4
         if [ $logger_per_node -gt 0 ]; then
-          local numa="$(dirname $0)/numa.rb $numa_nodes $((w-logger_per_node)) $logger_per_node"
+          local numa="$silo_d/numa.rb $numa_nodes $((w-logger_per_node)) $logger_per_node"
           echo $numa | tee -a $b.log
           local a=`$numa`
-          local c="numactl --interleave=all ../test_nlog/silo.exe $opt -buffer_num $buffer_num -buffer_size $buffer_size -affinity $a"
+          local c="numactl --interleave=all $silo_d/test_nlog/silo.exe $opt -buffer_num $buffer_num -buffer_size $buffer_size -affinity $a"
         else
-          local c="numactl --interleave=all ../test_0log/silo.exe $opt -thread_num $((w*numa_nodes))"
+          local c="numactl --interleave=all $silo_d/test_0log/silo.exe $opt -thread_num $((w*numa_nodes))"
         fi
         echo $c | tee -a $b.log
         $c |& tee -a $b.log
