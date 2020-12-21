@@ -3,7 +3,7 @@
 numa_nodes=8
 repeat=5
 opt='-extime 8 -clocks_per_us 2095 -rratio 0'
-silo_d='../../ccbench/silo'
+silo_d='../../../ccbench/silo'
 
 run() {
   local b=$1
