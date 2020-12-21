@@ -24,6 +24,8 @@ NUMA node 0..7 にそれぞれ1つの PMEMモジュールが装着されてい�
 * fsdaxモードで `/mnt/pmem{0..7}` にマウントし、
 * `/mnt/pmem{0..7}/$USER` というディレクトリを作成しておく。
 
+(下記スクリプトで使われる `ccbench/silo/numa.rb` を実行すると、`/mnt/pmem{0..7}/$USER` の下へのシンボリックリンクが自動的に作成される)
+
 ## ベンチマーク実行
 
 * スレッド数対トランザクションスループットの測定
@@ -61,3 +63,5 @@ gem install numo-gnuplot
 ruby plot-test1.rb run-test1.csv
 ruby plot-test2.rb run-test2.csv
 ```
+
+`*.png, *.eps, *.emf` が作成される。
