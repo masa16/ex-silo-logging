@@ -10,8 +10,7 @@ run() {
   mkdir -p $b
   for w in $core_nums; do
     for j in $(seq $repeat); do
-      if [ $w -gt $logger_per_node ]; then
-        sleep 4
+      if [ $w -gt $((logger_per_node*2)) ]; then
         if [ $logger_per_node -gt 0 ]; then
           local numa="$silo_d/numa.rb $numa_nodes $((w-logger_per_node)) $logger_per_node"
           echo $numa | tee -a $b.log
@@ -25,6 +24,7 @@ run() {
         if [ -f latency.dat ]; then
           mv latency.dat $b/latency-l$logger_per_node-w$((w*numa_nodes))-bn$buffer_num-bs$buffer_size-r$j.dat
         fi
+        sleep 4
       fi
     done
   done
