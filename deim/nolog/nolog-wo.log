@@ -1,0 +1,810 @@
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 8
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	8
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	25279
+commit_counts_:	54118778
+maxrss:	67388 kB
+abort_rate:	0.0005
+latency[ns]:	1182.5840
+throughput[tps]:	6764847
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 8
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	8
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	26514
+commit_counts_:	55087843
+maxrss:	67304 kB
+abort_rate:	0.0005
+latency[ns]:	1161.7809
+throughput[tps]:	6885980
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 8
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	8
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	25127
+commit_counts_:	55827940
+maxrss:	67392 kB
+abort_rate:	0.0004
+latency[ns]:	1146.3795
+throughput[tps]:	6978492
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 8
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	8
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	25939
+commit_counts_:	54635083
+maxrss:	67248 kB
+abort_rate:	0.0005
+latency[ns]:	1171.4086
+throughput[tps]:	6829385
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 8
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	8
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	25371
+commit_counts_:	55389068
+maxrss:	67404 kB
+abort_rate:	0.0005
+latency[ns]:	1155.4627
+throughput[tps]:	6923633
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 16
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	16
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	108590
+commit_counts_:	106351989
+maxrss:	67300 kB
+abort_rate:	0.0010
+latency[ns]:	1203.5507
+throughput[tps]:	13293998
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 16
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	16
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	113301
+commit_counts_:	105378504
+maxrss:	67400 kB
+abort_rate:	0.0011
+latency[ns]:	1214.6690
+throughput[tps]:	13172313
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 16
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	16
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	112382
+commit_counts_:	104936370
+maxrss:	67284 kB
+abort_rate:	0.0011
+latency[ns]:	1219.7868
+throughput[tps]:	13117046
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 16
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	16
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	114642
+commit_counts_:	104381172
+maxrss:	67372 kB
+abort_rate:	0.0011
+latency[ns]:	1226.2748
+throughput[tps]:	13047646
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 16
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	16
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	103918
+commit_counts_:	107684005
+maxrss:	67300 kB
+abort_rate:	0.0010
+latency[ns]:	1188.6631
+throughput[tps]:	13460500
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 32
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	32
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	450816
+commit_counts_:	207619875
+maxrss:	67544 kB
+abort_rate:	0.0022
+latency[ns]:	1233.0226
+throughput[tps]:	25952484
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 32
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	32
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	454724
+commit_counts_:	206941823
+maxrss:	67504 kB
+abort_rate:	0.0022
+latency[ns]:	1237.0627
+throughput[tps]:	25867727
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 32
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	32
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	441926
+commit_counts_:	208648371
+maxrss:	67552 kB
+abort_rate:	0.0021
+latency[ns]:	1226.9447
+throughput[tps]:	26081046
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 32
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	32
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	452685
+commit_counts_:	207215498
+maxrss:	67524 kB
+abort_rate:	0.0022
+latency[ns]:	1235.4288
+throughput[tps]:	25901937
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 32
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	32
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	453038
+commit_counts_:	206831301
+maxrss:	67536 kB
+abort_rate:	0.0022
+latency[ns]:	1237.7237
+throughput[tps]:	25853912
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 64
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	64
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	1850484
+commit_counts_:	392652014
+maxrss:	68364 kB
+abort_rate:	0.0047
+latency[ns]:	1303.9536
+throughput[tps]:	49081501
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 64
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	64
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	1879900
+commit_counts_:	392016825
+maxrss:	68372 kB
+abort_rate:	0.0048
+latency[ns]:	1306.0664
+throughput[tps]:	49002103
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 64
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	64
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	1879305
+commit_counts_:	394278646
+maxrss:	68268 kB
+abort_rate:	0.0047
+latency[ns]:	1298.5740
+throughput[tps]:	49284830
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 64
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	64
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	1800668
+commit_counts_:	394578058
+maxrss:	68376 kB
+abort_rate:	0.0045
+latency[ns]:	1297.5886
+throughput[tps]:	49322257
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 64
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	64
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	1891319
+commit_counts_:	389351991
+maxrss:	68348 kB
+abort_rate:	0.0048
+latency[ns]:	1315.0055
+throughput[tps]:	48668998
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 96
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	96
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	3161728
+commit_counts_:	553099130
+maxrss:	69072 kB
+abort_rate:	0.0057
+latency[ns]:	1388.5395
+throughput[tps]:	69137391
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 96
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	96
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	3194455
+commit_counts_:	550458768
+maxrss:	69056 kB
+abort_rate:	0.0058
+latency[ns]:	1395.1999
+throughput[tps]:	68807346
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 96
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	96
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	3189260
+commit_counts_:	555057480
+maxrss:	69052 kB
+abort_rate:	0.0057
+latency[ns]:	1383.6405
+throughput[tps]:	69382185
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 96
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	96
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	3122870
+commit_counts_:	556161606
+maxrss:	69060 kB
+abort_rate:	0.0056
+latency[ns]:	1380.8936
+throughput[tps]:	69520200
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 96
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	96
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	3153369
+commit_counts_:	549169329
+maxrss:	69152 kB
+abort_rate:	0.0057
+latency[ns]:	1398.4758
+throughput[tps]:	68646166
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 128
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	128
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	5269003
+commit_counts_:	646715420
+maxrss:	69832 kB
+abort_rate:	0.0081
+latency[ns]:	1583.3858
+throughput[tps]:	80839427
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 128
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	128
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	5203296
+commit_counts_:	650177582
+maxrss:	69936 kB
+abort_rate:	0.0079
+latency[ns]:	1574.9543
+throughput[tps]:	81272197
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 128
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	128
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	5254555
+commit_counts_:	649740438
+maxrss:	69848 kB
+abort_rate:	0.0080
+latency[ns]:	1576.0140
+throughput[tps]:	81217554
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 128
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	128
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	5192612
+commit_counts_:	653366918
+maxrss:	69832 kB
+abort_rate:	0.0079
+latency[ns]:	1567.2664
+throughput[tps]:	81670864
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 128
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	128
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	5252089
+commit_counts_:	648718782
+maxrss:	69916 kB
+abort_rate:	0.0080
+latency[ns]:	1578.4960
+throughput[tps]:	81089847
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 160
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	160
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	7225725
+commit_counts_:	706282366
+maxrss:	70692 kB
+abort_rate:	0.0101
+latency[ns]:	1812.3063
+throughput[tps]:	88285295
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 160
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	160
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	6920866
+commit_counts_:	708837459
+maxrss:	70692 kB
+abort_rate:	0.0097
+latency[ns]:	1805.7736
+throughput[tps]:	88604682
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 160
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	160
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	6817923
+commit_counts_:	712813393
+maxrss:	70728 kB
+abort_rate:	0.0095
+latency[ns]:	1795.7014
+throughput[tps]:	89101674
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 160
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	160
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	7134236
+commit_counts_:	710009924
+maxrss:	70740 kB
+abort_rate:	0.0099
+latency[ns]:	1802.7917
+throughput[tps]:	88751240
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 160
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	160
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	6750422
+commit_counts_:	715632100
+maxrss:	70616 kB
+abort_rate:	0.0093
+latency[ns]:	1788.6286
+throughput[tps]:	89454012
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 192
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	192
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	8486483
+commit_counts_:	765788225
+maxrss:	71372 kB
+abort_rate:	0.0110
+latency[ns]:	2005.7765
+throughput[tps]:	95723528
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 192
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	192
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	8438795
+commit_counts_:	764466341
+maxrss:	71460 kB
+abort_rate:	0.0109
+latency[ns]:	2009.2448
+throughput[tps]:	95558292
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 192
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	192
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	9225953
+commit_counts_:	763783751
+maxrss:	71376 kB
+abort_rate:	0.0119
+latency[ns]:	2011.0404
+throughput[tps]:	95472968
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 192
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	192
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	8375925
+commit_counts_:	767182572
+maxrss:	71368 kB
+abort_rate:	0.0108
+latency[ns]:	2002.1310
+throughput[tps]:	95897821
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 192
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	192
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	9487917
+commit_counts_:	770116540
+maxrss:	71484 kB
+abort_rate:	0.0122
+latency[ns]:	1994.5033
+throughput[tps]:	96264567
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 224
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	224
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	112686245
+commit_counts_:	804651302
+maxrss:	72172 kB
+abort_rate:	0.1228
+latency[ns]:	2227.0517
+throughput[tps]:	100581412
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 224
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	224
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	10305785
+commit_counts_:	821545852
+maxrss:	72176 kB
+abort_rate:	0.0124
+latency[ns]:	2181.2538
+throughput[tps]:	102693231
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 224
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	224
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	33965375
+commit_counts_:	816727930
+maxrss:	72152 kB
+abort_rate:	0.0399
+latency[ns]:	2194.1211
+throughput[tps]:	102090991
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 224
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	224
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	10695548
+commit_counts_:	820439416
+maxrss:	72252 kB
+abort_rate:	0.0129
+latency[ns]:	2184.1954
+throughput[tps]:	102554927
+numactl --interleave=0,1,2,3,4,5,6,7 ../../../ccbench/silo/test_0log_noidx/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -thread_num 224
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	40
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	224
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 0: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+abort_counts_:	84670606
+commit_counts_:	810303028
+maxrss:	72256 kB
+abort_rate:	0.0946
+latency[ns]:	2211.5183
+throughput[tps]:	101287878
