@@ -1,6 +1,6 @@
 #! /bin/bash
 
-silo_d='../../../ccbench/silo'
+silo_d='../../ccbench/silo'
 opt='-extime 8 -clocks_per_us 2095 -rratio 0'
 repeat=5
 node_num=8
