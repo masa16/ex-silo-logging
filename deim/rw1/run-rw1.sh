@@ -1,11 +1,10 @@
 #! /bin/bash
 
 silo_d='../../../ccbench/silo'
+opt='-extime 8 -clocks_per_us 2095 -rratio 50'
+repeat=5
 node_num=2
 node_list='0,1'
-repeat=5
-opt='-extime 8 -clocks_per_us 2095 -rratio 50'
-silo_d='../../ccbench/silo'
 core_nums='1 2 4 8 12 16 20 24 28'
 #core_nums=28
 logger_nums='1 2 3'
