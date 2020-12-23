@@ -28,9 +28,9 @@ run() {
           if [ $device = ssd ]; then
             rm log*
           fi
-          local c="numactl --interleave=$node_list $silo_d/test_nlog/silo.exe $opt -buffer_num $buffer_num -buffer_size $buffer_size -affinity $a"
+          local c="numactl --cpunodebind=$node_list --interleave=$node_list $silo_d/test_nlog/silo.exe $opt -buffer_num $buffer_num -buffer_size $buffer_size -affinity $a"
         else
-          local c="numactl --interleave=$node_list $silo_d/test_0log/silo.exe $opt -thread_num $((w*node_num))"
+          local c="numactl --cpunodebind=$node_list --interleave=$node_list $silo_d/test_0log/silo.exe $opt -thread_num $((w*node_num))"
         fi
         echo $c | tee -a $b.log
         $c |& tee -a $b.log
