@@ -9,8 +9,9 @@ ls=$((512 * 1024))
 #gdef="1 2 4 8 16 32 64 128 256 512 1024 2048 4096 8192 16384 32768 65536 131072"
 #gdef="1 2 4 8 16 32 64 128 256 512 1024 2048"
 gdef="1 4 16 64"
-nodes='0 2'
-threads='1 2 3'
+node_list='0 2'
+thread_list='1 2 3'
+cmd_list='writeLog'
 repeat=1
 
 rm_touch_truncate() {
@@ -24,13 +25,13 @@ do
     mkdir -p $dn
 done
 
-for node in $nodes
+for node in $node_list
 do
 
-    for cmd in mmapLog writeLog
+    for cmd in $cmd_list
     do
 
-    for threads in $threads
+    for threads in $thread_list
     do
 
         result_file=result_${cmd}_${node}_$((${ls} / 1024))_${threads}
