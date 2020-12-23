@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NVDIMM_DIR=/mnt/pmem0/tanakams/oltp-benchmark
-cmd_dir=/home/tanakams/1216/oltp-benchmark-tools/pmem/build/src
+CMD_DIR=/home/tanakams/1216/oltp-benchmark-tools/pmem/build/src
 
 ps=$((1024 * 1024 * 1024))
 ls=$((512 * 1024))
@@ -41,7 +41,7 @@ do
             do
                 for i in $(seq $repeat); do
                 rm -f ${log_file_name}*
-                c="numactl --cpunodebind ${node} --localalloc ./${cmd} -log_file ${log_file_name} -pmem_size ${ps} -log_size ${ls} -group_size ${g}  -threads ${threads}"
+                c="numactl --cpunodebind ${node} --localalloc ${CMD_DIR}/${cmd} -log_file ${log_file_name} -pmem_size ${ps} -log_size ${ls} -group_size ${g}  -threads ${threads}"
                 echo $c >&2
                 echo -n "${cmd},${node},${ls},${g}, "
                 $c
