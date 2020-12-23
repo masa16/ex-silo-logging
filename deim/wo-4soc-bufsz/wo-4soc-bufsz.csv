@@ -1,0 +1,6 @@
+thread_num,logger_num,buffer_num,buffer_size,clocks_per_us,epoch_time,extime,max_ope,rmw,rratio,tuple_num,ycsb,zipf_skew,throughput[tps],abort_rate,durabule_latency,log_throughput[B/s],backpressure_latency_rate,write_latency_rate,write_count,buffer_count,byte_count
+224,,,,2095,40,8,10,0,0,1000000,1,0,43058830,0.0010,,,,,,,
+224,,,,2095,40,8,10,0,0,1000000,1,0,43070138,0.0065,,,,,,,
+224,,,,2095,40,8,10,0,0,1000000,1,0,43117433,0.0020,,,,,,,
+224,,,,2095,40,8,10,0,0,1000000,1,0,43150688,0.0010,,,,,,,
+224,,,,2095,40,8,10,0,0,1000000,1,0,43165029,0.0009,,,,,,,
