@@ -7,12 +7,11 @@ ps=$((1024 * 1024 * 1024))
 ls=$((512 * 1024))
 #gdef='1 2 4 8 12 16 20 24 28 32 40 48 56 64 80 96 112 128'
 #gdef="1 2 4 8 16 32 64 128 256 512 1024 2048 4096 8192 16384 32768 65536 131072"
-#gdef="1 2 4 8 16 32 64 128 256 512 1024 2048"
-gdef="1 4 16 64"
+gdef="1 2 4 8 16 32 64 128 256 512"
 node_list='0 2'
-thread_list='1 2 3'
-cmd_list='writeLog'
-repeat=1
+thread_list='1 2 3 4'
+cmd_list='writeLog mmapLog'
+repeat=5
 
 rm_touch_truncate() {
     rm -f $1
