@@ -11,7 +11,7 @@ gdef="1 2 4 8 16 32 64 128"
 node_list='0'
 thread_list='1 2 3 4'
 cmd_list='writeLog'
-repeat=10
+repeat=4
 
 rm_touch_truncate() {
     rm -f $1
