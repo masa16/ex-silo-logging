@@ -4,8 +4,10 @@
 ## ソースコードの取得
 
 ```
+git clone --recursive git@github.com:masa16/ccbench.git
 git clone --recursive https://github.com/masa16/ccbench.git
 git clone https://github.com/masa16/ex-silo-logging.git
+git clone git@github.com:masa16/ex-silo-logging.git
 ```
 
 ## ビルド
@@ -31,19 +33,11 @@ NUMA node 0..7 にそれぞれ1つの PMEMモジュールが装着されてい�
 * スレッド数対トランザクションスループットの測定
 
 ```
-cd ex-silo-logging/ex1
-./run-test1.sh
+cd ex-silo-logging/deim/fig1
+./run1.sh
 ```
 
-`run-test1.csv` という結果ファイルを出力。
-
-* バッファサイズ対トランザクションスループットの測定
-
-```
-./run-test2.sh
-```
-
-`run-test2.csv` という結果ファイルを出力。
+`run1.csv` という結果ファイルを出力。
 
 ## プロット
 
