@@ -1,0 +1,4180 @@
+../../ccbench/silo/numa.rb 0,1 1 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0+139:4
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	2
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=353956 byte_count[B]=58829488 write_latency[s]=5.18038 throughput[B/s]=1.13562e+07 wait_latency[s]=0.0932026
+Logger#1: max_buffers=0 nid_count=373548 byte_count[B]=61964256 write_latency[s]=5.15556 throughput[B/s]=1.20189e+07 wait_latency[s]=0.0507544
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	727504
+wait_time[s]:	0.143957
+write_time[s]:	10.3359
+write_count:	74099
+byte_count[B]:	120793744
+buffer_count:	274599
+throughput(thread_sum)[B/s]:	2.33751e+07
+throughput(byte_sum)[B/s]:	2.33735e+07
+throughput(elap)[B/s]:	1.44102e+07
+durable_latency[ms]:	1.4529
+durable_count:	727504
+durable_epoch:	137295
+abort_counts_:	1
+commit_counts_:	727504
+maxrss:	488844 kB
+abort_rate:	0.0000
+latency[ns]:	21993.0062
+throughput[tps]:	90938
+../../ccbench/silo/numa.rb 0,1 1 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0+139:4
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	2
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=364662 byte_count[B]=60536288 write_latency[s]=5.18509 throughput[B/s]=1.16751e+07 wait_latency[s]=0.0509097
+Logger#0: max_buffers=0 nid_count=372683 byte_count[B]=61819760 write_latency[s]=5.27694 throughput[B/s]=1.17151e+07 wait_latency[s]=0.100623
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	737345
+wait_time[s]:	0.151533
+write_time[s]:	10.462
+write_count:	74905
+byte_count[B]:	122356048
+buffer_count:	273844
+throughput(thread_sum)[B/s]:	2.33901e+07
+throughput(byte_sum)[B/s]:	2.33905e+07
+throughput(elap)[B/s]:	1.45974e+07
+durable_latency[ms]:	1.4925
+durable_count:	737345
+durable_epoch:	136918
+abort_counts_:	1
+commit_counts_:	737345
+maxrss:	488648 kB
+abort_rate:	0.0000
+latency[ns]:	21699.5053
+throughput[tps]:	92168
+../../ccbench/silo/numa.rb 0,1 1 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0+139:4
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	2
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=368436 byte_count[B]=61155664 write_latency[s]=5.27385 throughput[B/s]=1.1596e+07 wait_latency[s]=0.112551
+Logger#1: max_buffers=0 nid_count=363327 byte_count[B]=60338160 write_latency[s]=5.18351 throughput[B/s]=1.16404e+07 wait_latency[s]=0.0550733
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	731763
+wait_time[s]:	0.167624
+write_time[s]:	10.4574
+write_count:	75821
+byte_count[B]:	121493824
+buffer_count:	275766
+throughput(thread_sum)[B/s]:	2.32364e+07
+throughput(byte_sum)[B/s]:	2.3236e+07
+throughput(elap)[B/s]:	1.44939e+07
+durable_latency[ms]:	1.5093
+durable_count:	731763
+durable_epoch:	137879
+abort_counts_:	1
+commit_counts_:	731763
+maxrss:	488572 kB
+abort_rate:	0.0000
+latency[ns]:	21865.0924
+throughput[tps]:	91470
+../../ccbench/silo/numa.rb 0,1 1 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0+139:4
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	2
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=392046 byte_count[B]=64928240 write_latency[s]=5.37878 throughput[B/s]=1.20712e+07 wait_latency[s]=0.117901
+Logger#1: max_buffers=0 nid_count=348069 byte_count[B]=57892000 write_latency[s]=5.20798 throughput[B/s]=1.1116e+07 wait_latency[s]=0.0561158
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	740115
+wait_time[s]:	0.174016
+write_time[s]:	10.5868
+write_count:	76660
+byte_count[B]:	122820240
+buffer_count:	275155
+throughput(thread_sum)[B/s]:	2.31872e+07
+throughput(byte_sum)[B/s]:	2.32026e+07
+throughput(elap)[B/s]:	1.46519e+07
+durable_latency[ms]:	1.5821
+durable_count:	740115
+durable_epoch:	137573
+abort_counts_:	1
+commit_counts_:	740115
+maxrss:	488692 kB
+abort_rate:	0.0000
+latency[ns]:	21618.3497
+throughput[tps]:	92514
+../../ccbench/silo/numa.rb 0,1 1 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0+139:4
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	2
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=355461 byte_count[B]=59070288 write_latency[s]=5.22568 throughput[B/s]=1.13039e+07 wait_latency[s]=0.0568009
+Logger#0: max_buffers=0 nid_count=368336 byte_count[B]=61130304 write_latency[s]=5.3515 throughput[B/s]=1.1423e+07 wait_latency[s]=0.122742
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	723797
+wait_time[s]:	0.179542
+write_time[s]:	10.5772
+write_count:	76639
+byte_count[B]:	120200592
+buffer_count:	274597
+throughput(thread_sum)[B/s]:	2.27269e+07
+throughput(byte_sum)[B/s]:	2.27283e+07
+throughput(elap)[B/s]:	1.43397e+07
+durable_latency[ms]:	1.6948
+durable_count:	723797
+durable_epoch:	137296
+abort_counts_:	1
+commit_counts_:	723797
+maxrss:	488720 kB
+abort_rate:	0.0000
+latency[ns]:	22105.7984
+throughput[tps]:	90474
+../../ccbench/silo/numa.rb 0,1 3 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2+139:4,5,6
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	6
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=887443 byte_count[B]=146125712 write_latency[s]=6.59371 throughput[B/s]=2.21614e+07 wait_latency[s]=0.0376216
+Logger#1: max_buffers=0 nid_count=1413858 byte_count[B]=230351872 write_latency[s]=6.98587 throughput[B/s]=3.2974e+07 wait_latency[s]=0.040662
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	2301301
+wait_time[s]:	0.0782836
+write_time[s]:	13.5796
+write_count:	50914
+byte_count[B]:	376477584
+buffer_count:	516945
+throughput(thread_sum)[B/s]:	5.51353e+07
+throughput(byte_sum)[B/s]:	5.54476e+07
+throughput(elap)[B/s]:	4.4912e+07
+durable_latency[ms]:	3.0495
+durable_count:	2301301
+durable_epoch:	86152
+abort_counts_:	11
+commit_counts_:	2301301
+maxrss:	496516 kB
+abort_rate:	0.0000
+latency[ns]:	20857.8123
+throughput[tps]:	287662
+../../ccbench/silo/numa.rb 0,1 3 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2+139:4,5,6
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	6
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1367452 byte_count[B]=222969424 write_latency[s]=6.96841 throughput[B/s]=3.19972e+07 wait_latency[s]=0.0425437
+Logger#0: max_buffers=0 nid_count=919532 byte_count[B]=151302528 write_latency[s]=6.58178 throughput[B/s]=2.29881e+07 wait_latency[s]=0.0383315
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	2286984
+wait_time[s]:	0.0808752
+write_time[s]:	13.5502
+write_count:	51324
+byte_count[B]:	374271952
+buffer_count:	522259
+throughput(thread_sum)[B/s]:	5.49853e+07
+throughput(byte_sum)[B/s]:	5.52423e+07
+throughput(elap)[B/s]:	4.46507e+07
+durable_latency[ms]:	2.9976
+durable_count:	2286984
+durable_epoch:	87041
+abort_counts_:	19
+commit_counts_:	2286984
+maxrss:	496764 kB
+abort_rate:	0.0000
+latency[ns]:	20988.3410
+throughput[tps]:	285873
+../../ccbench/silo/numa.rb 0,1 3 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2+139:4,5,6
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	6
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=3020143 byte_count[B]=487913328 write_latency[s]=7.07256 throughput[B/s]=6.89868e+07 wait_latency[s]=0.0480142
+Logger#1: max_buffers=0 nid_count=943374 byte_count[B]=155631648 write_latency[s]=6.62708 throughput[B/s]=2.34842e+07 wait_latency[s]=0.0371556
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	3963517
+wait_time[s]:	0.0851698
+write_time[s]:	13.6996
+write_count:	62979
+byte_count[B]:	643544976
+buffer_count:	586550
+throughput(thread_sum)[B/s]:	9.2471e+07
+throughput(byte_sum)[B/s]:	9.39506e+07
+throughput(elap)[B/s]:	7.67722e+07
+durable_latency[ms]:	2.8901
+durable_count:	3963517
+durable_epoch:	97753
+abort_counts_:	31
+commit_counts_:	3963517
+maxrss:	496292 kB
+abort_rate:	0.0000
+latency[ns]:	12110.4717
+throughput[tps]:	495439
+../../ccbench/silo/numa.rb 0,1 3 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2+139:4,5,6
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	6
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1366688 byte_count[B]=222829600 write_latency[s]=6.96436 throughput[B/s]=3.19957e+07 wait_latency[s]=0.0424357
+Logger#0: max_buffers=0 nid_count=907108 byte_count[B]=149296928 write_latency[s]=6.56888 throughput[B/s]=2.27279e+07 wait_latency[s]=0.0365911
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	2273796
+wait_time[s]:	0.0790267
+write_time[s]:	13.5332
+write_count:	50988
+byte_count[B]:	372126528
+buffer_count:	520053
+throughput(thread_sum)[B/s]:	5.47236e+07
+throughput(byte_sum)[B/s]:	5.49944e+07
+throughput(elap)[B/s]:	4.43926e+07
+durable_latency[ms]:	3.0157
+durable_count:	2273796
+durable_epoch:	86672
+abort_counts_:	15
+commit_counts_:	2273796
+maxrss:	496460 kB
+abort_rate:	0.0000
+latency[ns]:	21110.1103
+throughput[tps]:	284224
+../../ccbench/silo/numa.rb 0,1 3 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2+139:4,5,6
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	6
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1382969 byte_count[B]=225419184 write_latency[s]=6.94186 throughput[B/s]=3.24724e+07 wait_latency[s]=0.0413917
+Logger#0: max_buffers=0 nid_count=916697 byte_count[B]=150815904 write_latency[s]=6.57649 throughput[B/s]=2.29326e+07 wait_latency[s]=0.0368327
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	2299666
+wait_time[s]:	0.0782244
+write_time[s]:	13.5184
+write_count:	50821
+byte_count[B]:	376235088
+buffer_count:	518140
+throughput(thread_sum)[B/s]:	5.5405e+07
+throughput(byte_sum)[B/s]:	5.56629e+07
+throughput(elap)[B/s]:	4.4885e+07
+durable_latency[ms]:	2.9974
+durable_count:	2299666
+durable_epoch:	86354
+abort_counts_:	15
+commit_counts_:	2299666
+maxrss:	496604 kB
+abort_rate:	0.0000
+latency[ns]:	20872.6144
+throughput[tps]:	287458
+../../ccbench/silo/numa.rb 0,1 7 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9+139:4,5,6,10,11,12,13
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	14
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1731709 byte_count[B]=282880944 write_latency[s]=7.49277 throughput[B/s]=3.77539e+07 wait_latency[s]=0.038334
+Logger#0: max_buffers=0 nid_count=2812834 byte_count[B]=455860256 write_latency[s]=7.60924 throughput[B/s]=5.99088e+07 wait_latency[s]=0.0447211
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	4544543
+wait_time[s]:	0.0830551
+write_time[s]:	15.102
+write_count:	32068
+byte_count[B]:	738741200
+buffer_count:	726102
+throughput(thread_sum)[B/s]:	9.76627e+07
+throughput(byte_sum)[B/s]:	9.78335e+07
+throughput(elap)[B/s]:	8.81315e+07
+durable_latency[ms]:	4.8815
+durable_count:	4544543
+durable_epoch:	51862
+abort_counts_:	84
+commit_counts_:	4544543
+maxrss:	513988 kB
+abort_rate:	0.0000
+latency[ns]:	24644.9803
+throughput[tps]:	568067
+../../ccbench/silo/numa.rb 0,1 7 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9+139:4,5,6,10,11,12,13
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	14
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=9512025 byte_count[B]=1528426512 write_latency[s]=7.91827 throughput[B/s]=1.93025e+08 wait_latency[s]=0.0346819
+Logger#1: max_buffers=0 nid_count=811900 byte_count[B]=136412400 write_latency[s]=7.24638 throughput[B/s]=1.88249e+07 wait_latency[s]=0.0319139
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10323925
+wait_time[s]:	0.0665958
+write_time[s]:	15.1646
+write_count:	39285
+byte_count[B]:	1664838912
+buffer_count:	813656
+throughput(thread_sum)[B/s]:	2.1185e+08
+throughput(byte_sum)[B/s]:	2.19568e+08
+throughput(elap)[B/s]:	1.98617e+08
+durable_latency[ms]:	4.7861
+durable_count:	10323925
+durable_epoch:	58116
+abort_counts_:	170
+commit_counts_:	10323925
+maxrss:	515368 kB
+abort_rate:	0.0000
+latency[ns]:	10848.5924
+throughput[tps]:	1290490
+../../ccbench/silo/numa.rb 0,1 7 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9+139:4,5,6,10,11,12,13
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	14
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=5065215 byte_count[B]=816475600 write_latency[s]=7.72995 throughput[B/s]=1.05625e+08 wait_latency[s]=0.0352452
+Logger#1: max_buffers=0 nid_count=1399359 byte_count[B]=229940944 write_latency[s]=7.40123 throughput[B/s]=3.10679e+07 wait_latency[s]=0.030813
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	6464574
+wait_time[s]:	0.0660582
+write_time[s]:	15.1312
+write_count:	34661
+byte_count[B]:	1046416544
+buffer_count:	755564
+throughput(thread_sum)[B/s]:	1.36693e+08
+throughput(byte_sum)[B/s]:	1.38313e+08
+throughput(elap)[B/s]:	1.2483e+08
+durable_latency[ms]:	4.8563
+durable_count:	6464574
+durable_epoch:	53964
+abort_counts_:	128
+commit_counts_:	6464574
+maxrss:	514104 kB
+abort_rate:	0.0000
+latency[ns]:	17325.2103
+throughput[tps]:	808071
+../../ccbench/silo/numa.rb 0,1 7 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9+139:4,5,6,10,11,12,13
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	14
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=3901468 byte_count[B]=630447888 write_latency[s]=7.54286 throughput[B/s]=8.35821e+07 wait_latency[s]=0.0324654
+Logger#0: max_buffers=0 nid_count=4455150 byte_count[B]=719036960 write_latency[s]=7.59203 throughput[B/s]=9.47094e+07 wait_latency[s]=0.0327615
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8356618
+wait_time[s]:	0.0652269
+write_time[s]:	15.1349
+write_count:	36757
+byte_count[B]:	1349484848
+buffer_count:	776989
+throughput(thread_sum)[B/s]:	1.78292e+08
+throughput(byte_sum)[B/s]:	1.78328e+08
+throughput(elap)[B/s]:	1.60993e+08
+durable_latency[ms]:	4.6275
+durable_count:	8356618
+durable_epoch:	55495
+abort_counts_:	174
+commit_counts_:	8356618
+maxrss:	512952 kB
+abort_rate:	0.0000
+latency[ns]:	13402.5543
+throughput[tps]:	1044577
+../../ccbench/silo/numa.rb 0,1 7 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9+139:4,5,6,10,11,12,13
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	14
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=2670486 byte_count[B]=433174048 write_latency[s]=7.58056 throughput[B/s]=5.71428e+07 wait_latency[s]=0.0365418
+Logger#1: max_buffers=0 nid_count=2516991 byte_count[B]=408614944 write_latency[s]=7.52689 throughput[B/s]=5.42874e+07 wait_latency[s]=0.0306595
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	5187477
+wait_time[s]:	0.0672013
+write_time[s]:	15.1074
+write_count:	33066
+byte_count[B]:	841788992
+buffer_count:	737266
+throughput(thread_sum)[B/s]:	1.1143e+08
+throughput(byte_sum)[B/s]:	1.1144e+08
+throughput(elap)[B/s]:	1.0042e+08
+durable_latency[ms]:	4.8049
+durable_count:	5187477
+durable_epoch:	52660
+abort_counts_:	120
+commit_counts_:	5187477
+maxrss:	514064 kB
+abort_rate:	0.0000
+latency[ns]:	21590.4780
+throughput[tps]:	648434
+../../ccbench/silo/numa.rb 0,1 11 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17+139:4,5,6,10,11,12,13,18,19,20,24
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	22
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=994509 byte_count[B]=165957872 write_latency[s]=7.58875 throughput[B/s]=2.18689e+07 wait_latency[s]=0.0324399
+Logger#0: max_buffers=0 nid_count=9815042 byte_count[B]=1577236592 write_latency[s]=8.0053 throughput[B/s]=1.97024e+08 wait_latency[s]=0.0295233
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10809551
+wait_time[s]:	0.0619632
+write_time[s]:	15.5941
+write_count:	25436
+byte_count[B]:	1743194464
+buffer_count:	854661
+throughput(thread_sum)[B/s]:	2.18893e+08
+throughput(byte_sum)[B/s]:	2.23572e+08
+throughput(elap)[B/s]:	2.07962e+08
+durable_latency[ms]:	6.6879
+durable_count:	10809551
+durable_epoch:	38846
+abort_counts_:	263
+commit_counts_:	10809551
+maxrss:	532340 kB
+abort_rate:	0.0000
+latency[ns]:	16281.9079
+throughput[tps]:	1351193
+../../ccbench/silo/numa.rb 0,1 11 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17+139:4,5,6,10,11,12,13,18,19,20,24
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	22
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=10104679 byte_count[B]=1623622512 write_latency[s]=7.99999 throughput[B/s]=2.02953e+08 wait_latency[s]=0.0301388
+Logger#1: max_buffers=0 nid_count=1017509 byte_count[B]=169681776 write_latency[s]=7.58098 throughput[B/s]=2.23826e+07 wait_latency[s]=0.0316854
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	11122188
+wait_time[s]:	0.0618243
+write_time[s]:	15.581
+write_count:	25685
+byte_count[B]:	1793304288
+buffer_count:	860125
+throughput(thread_sum)[B/s]:	2.25336e+08
+throughput(byte_sum)[B/s]:	2.30192e+08
+throughput(elap)[B/s]:	2.13936e+08
+durable_latency[ms]:	6.6229
+durable_count:	11122188
+durable_epoch:	39092
+abort_counts_:	325
+commit_counts_:	11122188
+maxrss:	532296 kB
+abort_rate:	0.0000
+latency[ns]:	15824.2302
+throughput[tps]:	1390273
+../../ccbench/silo/numa.rb 0,1 11 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17+139:4,5,6,10,11,12,13,18,19,20,24
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	22
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1419841 byte_count[B]=234003600 write_latency[s]=7.61572 throughput[B/s]=3.07264e+07 wait_latency[s]=0.0317363
+Logger#0: max_buffers=0 nid_count=9791120 byte_count[B]=1573402480 write_latency[s]=7.97284 throughput[B/s]=1.97345e+08 wait_latency[s]=0.0330656
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	11210961
+wait_time[s]:	0.0648019
+write_time[s]:	15.5886
+write_count:	26189
+byte_count[B]:	1807406080
+buffer_count:	853801
+throughput(thread_sum)[B/s]:	2.28072e+08
+throughput(byte_sum)[B/s]:	2.31889e+08
+throughput(elap)[B/s]:	2.15619e+08
+durable_latency[ms]:	6.6486
+durable_count:	11210961
+durable_epoch:	38807
+abort_counts_:	347
+commit_counts_:	11210961
+maxrss:	531216 kB
+abort_rate:	0.0000
+latency[ns]:	15698.9232
+throughput[tps]:	1401370
+../../ccbench/silo/numa.rb 0,1 11 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17+139:4,5,6,10,11,12,13,18,19,20,24
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	22
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1739420 byte_count[B]=285117728 write_latency[s]=7.64057 throughput[B/s]=3.73163e+07 wait_latency[s]=0.0318002
+Logger#0: max_buffers=0 nid_count=8515164 byte_count[B]=1369232032 write_latency[s]=7.94993 throughput[B/s]=1.72232e+08 wait_latency[s]=0.033724
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10254584
+wait_time[s]:	0.0655243
+write_time[s]:	15.5905
+write_count:	25115
+byte_count[B]:	1654349760
+buffer_count:	851473
+throughput(thread_sum)[B/s]:	2.09548e+08
+throughput(byte_sum)[B/s]:	2.12225e+08
+throughput(elap)[B/s]:	1.97354e+08
+durable_latency[ms]:	6.6848
+durable_count:	10254584
+durable_epoch:	38699
+abort_counts_:	319
+commit_counts_:	10254584
+maxrss:	533296 kB
+abort_rate:	0.0000
+latency[ns]:	17163.0561
+throughput[tps]:	1281823
+../../ccbench/silo/numa.rb 0,1 11 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17+139:4,5,6,10,11,12,13,18,19,20,24
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	22
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=2663822 byte_count[B]=433038080 write_latency[s]=7.6877 throughput[B/s]=5.63287e+07 wait_latency[s]=0.0320003
+Logger#0: max_buffers=0 nid_count=7544591 byte_count[B]=1213958064 write_latency[s]=7.89535 throughput[B/s]=1.53756e+08 wait_latency[s]=0.0371611
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10208413
+wait_time[s]:	0.0691614
+write_time[s]:	15.583
+write_count:	25409
+byte_count[B]:	1646996144
+buffer_count:	853550
+throughput(thread_sum)[B/s]:	2.10085e+08
+throughput(byte_sum)[B/s]:	2.11383e+08
+throughput(elap)[B/s]:	1.96479e+08
+durable_latency[ms]:	6.5822
+durable_count:	10208413
+durable_epoch:	38793
+abort_counts_:	286
+commit_counts_:	10208413
+maxrss:	532340 kB
+abort_rate:	0.0000
+latency[ns]:	17240.6902
+throughput[tps]:	1276051
+../../ccbench/silo/numa.rb 0,1 15 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	30
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=4586804 byte_count[B]=740777632 write_latency[s]=7.91465 throughput[B/s]=9.35958e+07 wait_latency[s]=0.0443884
+Logger#0: max_buffers=0 nid_count=4133722 byte_count[B]=668284800 write_latency[s]=7.8614 throughput[B/s]=8.50083e+07 wait_latency[s]=0.049686
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8720526
+wait_time[s]:	0.0940744
+write_time[s]:	15.776
+write_count:	16657
+byte_count[B]:	1409062432
+buffer_count:	861529
+throughput(thread_sum)[B/s]:	1.78604e+08
+throughput(byte_sum)[B/s]:	1.78633e+08
+throughput(elap)[B/s]:	1.68087e+08
+durable_latency[ms]:	8.0974
+durable_count:	8720526
+durable_epoch:	28714
+abort_counts_:	357
+commit_counts_:	8720526
+maxrss:	551832 kB
+abort_rate:	0.0000
+latency[ns]:	27521.2946
+throughput[tps]:	1090065
+../../ccbench/silo/numa.rb 0,1 15 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	30
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=4186656 byte_count[B]=676730208 write_latency[s]=7.8661 throughput[B/s]=8.60312e+07 wait_latency[s]=0.0484369
+Logger#1: max_buffers=0 nid_count=4472335 byte_count[B]=722438208 write_latency[s]=7.91351 throughput[B/s]=9.12917e+07 wait_latency[s]=0.0438933
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8658991
+wait_time[s]:	0.0923302
+write_time[s]:	15.7796
+write_count:	16628
+byte_count[B]:	1399168416
+buffer_count:	858545
+throughput(thread_sum)[B/s]:	1.77323e+08
+throughput(byte_sum)[B/s]:	1.77339e+08
+throughput(elap)[B/s]:	1.669e+08
+durable_latency[ms]:	8.0815
+durable_count:	8658991
+durable_epoch:	28614
+abort_counts_:	339
+commit_counts_:	8658991
+maxrss:	551940 kB
+abort_rate:	0.0000
+latency[ns]:	27716.8776
+throughput[tps]:	1082373
+../../ccbench/silo/numa.rb 0,1 15 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	30
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=4581624 byte_count[B]=739817360 write_latency[s]=7.89937 throughput[B/s]=9.36553e+07 wait_latency[s]=0.0426833
+Logger#1: max_buffers=0 nid_count=3889683 byte_count[B]=629107488 write_latency[s]=7.89498 throughput[B/s]=7.96845e+07 wait_latency[s]=0.0449144
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8471307
+wait_time[s]:	0.0875978
+write_time[s]:	15.7943
+write_count:	16341
+byte_count[B]:	1368924848
+buffer_count:	845118
+throughput(thread_sum)[B/s]:	1.7334e+08
+throughput(byte_sum)[B/s]:	1.73344e+08
+throughput(elap)[B/s]:	1.63302e+08
+durable_latency[ms]:	8.1559
+durable_count:	8471307
+durable_epoch:	28167
+abort_counts_:	346
+commit_counts_:	8471307
+maxrss:	551044 kB
+abort_rate:	0.0000
+latency[ns]:	28330.9394
+throughput[tps]:	1058913
+../../ccbench/silo/numa.rb 0,1 15 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	30
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=4615718 byte_count[B]=745109312 write_latency[s]=7.90159 throughput[B/s]=9.42987e+07 wait_latency[s]=0.0447932
+Logger#1: max_buffers=0 nid_count=3930674 byte_count[B]=635503168 write_latency[s]=7.90554 throughput[B/s]=8.0387e+07 wait_latency[s]=0.0477347
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8546392
+wait_time[s]:	0.0925278
+write_time[s]:	15.8071
+write_count:	15985
+byte_count[B]:	1380612480
+buffer_count:	824761
+throughput(thread_sum)[B/s]:	1.74686e+08
+throughput(byte_sum)[B/s]:	1.74682e+08
+throughput(elap)[B/s]:	1.647e+08
+durable_latency[ms]:	8.4817
+durable_count:	8546392
+durable_epoch:	27488
+abort_counts_:	316
+commit_counts_:	8546392
+maxrss:	552016 kB
+abort_rate:	0.0000
+latency[ns]:	28082.0257
+throughput[tps]:	1068299
+../../ccbench/silo/numa.rb 0,1 15 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	30
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=4258682 byte_count[B]=688083424 write_latency[s]=7.91509 throughput[B/s]=8.69332e+07 wait_latency[s]=0.0423862
+Logger#0: max_buffers=0 nid_count=4370912 byte_count[B]=706040096 write_latency[s]=7.88168 throughput[B/s]=8.95799e+07 wait_latency[s]=0.0462604
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8629594
+wait_time[s]:	0.0886465
+write_time[s]:	15.7968
+write_count:	16169
+byte_count[B]:	1394123520
+buffer_count:	837168
+throughput(thread_sum)[B/s]:	1.76513e+08
+throughput(byte_sum)[B/s]:	1.76507e+08
+throughput(elap)[B/s]:	1.66307e+08
+durable_latency[ms]:	8.2925
+durable_count:	8629594
+durable_epoch:	27904
+abort_counts_:	336
+commit_counts_:	8629594
+maxrss:	551264 kB
+abort_rate:	0.0000
+latency[ns]:	27811.2801
+throughput[tps]:	1078699
+../../ccbench/silo/numa.rb 0,1 19 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	38
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=5704257 byte_count[B]=918798608 write_latency[s]=8.02201 throughput[B/s]=1.14535e+08 wait_latency[s]=0.0433853
+Logger#0: max_buffers=0 nid_count=5225455 byte_count[B]=842191536 write_latency[s]=7.97119 throughput[B/s]=1.05654e+08 wait_latency[s]=0.0434415
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10929712
+wait_time[s]:	0.0868268
+write_time[s]:	15.9932
+write_count:	11737
+byte_count[B]:	1760990144
+buffer_count:	765277
+throughput(thread_sum)[B/s]:	2.20189e+08
+throughput(byte_sum)[B/s]:	2.20217e+08
+throughput(elap)[B/s]:	2.10066e+08
+durable_latency[ms]:	10.7787
+durable_count:	10929712
+durable_epoch:	20135
+abort_counts_:	536
+commit_counts_:	10929712
+maxrss:	569424 kB
+abort_rate:	0.0000
+latency[ns]:	27814.0906
+throughput[tps]:	1366214
+../../ccbench/silo/numa.rb 0,1 19 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	38
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=5654550 byte_count[B]=910871408 write_latency[s]=8.01149 throughput[B/s]=1.13696e+08 wait_latency[s]=0.0503994
+Logger#0: max_buffers=0 nid_count=5299310 byte_count[B]=854033680 write_latency[s]=7.97239 throughput[B/s]=1.07124e+08 wait_latency[s]=0.046374
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10953860
+wait_time[s]:	0.0967735
+write_time[s]:	15.9839
+write_count:	11780
+byte_count[B]:	1764905088
+buffer_count:	768443
+throughput(thread_sum)[B/s]:	2.2082e+08
+throughput(byte_sum)[B/s]:	2.20836e+08
+throughput(elap)[B/s]:	2.10538e+08
+durable_latency[ms]:	10.7564
+durable_count:	10953860
+durable_epoch:	20220
+abort_counts_:	565
+commit_counts_:	10953860
+maxrss:	570548 kB
+abort_rate:	0.0001
+latency[ns]:	27752.7840
+throughput[tps]:	1369232
+../../ccbench/silo/numa.rb 0,1 19 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	38
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=5821380 byte_count[B]=937602496 write_latency[s]=8.01547 throughput[B/s]=1.16974e+08 wait_latency[s]=0.0473385
+Logger#0: max_buffers=0 nid_count=5235120 byte_count[B]=843802016 write_latency[s]=7.97262 throughput[B/s]=1.05837e+08 wait_latency[s]=0.0444679
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	11056500
+wait_time[s]:	0.0918064
+write_time[s]:	15.9881
+write_count:	11905
+byte_count[B]:	1781404512
+buffer_count:	773318
+throughput(thread_sum)[B/s]:	2.22812e+08
+throughput(byte_sum)[B/s]:	2.22841e+08
+throughput(elap)[B/s]:	2.12501e+08
+durable_latency[ms]:	10.8417
+durable_count:	11056500
+durable_epoch:	20348
+abort_counts_:	597
+commit_counts_:	11056500
+maxrss:	569280 kB
+abort_rate:	0.0001
+latency[ns]:	27495.1486
+throughput[tps]:	1382062
+../../ccbench/silo/numa.rb 0,1 19 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	38
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=6039199 byte_count[B]=972287280 write_latency[s]=7.9949 throughput[B/s]=1.21613e+08 wait_latency[s]=0.045831
+Logger#0: max_buffers=0 nid_count=5266143 byte_count[B]=848598752 write_latency[s]=7.93521 throughput[B/s]=1.06941e+08 wait_latency[s]=0.0479695
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	11305342
+wait_time[s]:	0.0938005
+write_time[s]:	15.9301
+write_count:	11587
+byte_count[B]:	1820886032
+buffer_count:	752523
+throughput(thread_sum)[B/s]:	2.28554e+08
+throughput(byte_sum)[B/s]:	2.28609e+08
+throughput(elap)[B/s]:	2.1719e+08
+durable_latency[ms]:	11.2699
+durable_count:	11305342
+durable_epoch:	19802
+abort_counts_:	600
+commit_counts_:	11305342
+maxrss:	571064 kB
+abort_rate:	0.0001
+latency[ns]:	26889.9571
+throughput[tps]:	1413167
+../../ccbench/silo/numa.rb 0,1 19 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	38
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=5842829 byte_count[B]=940959872 write_latency[s]=8.02368 throughput[B/s]=1.17273e+08 wait_latency[s]=0.046489
+Logger#0: max_buffers=0 nid_count=5191573 byte_count[B]=836759840 write_latency[s]=7.96325 throughput[B/s]=1.05078e+08 wait_latency[s]=0.0728704
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	11034402
+wait_time[s]:	0.119359
+write_time[s]:	15.9869
+write_count:	11870
+byte_count[B]:	1777719712
+buffer_count:	763961
+throughput(thread_sum)[B/s]:	2.22351e+08
+throughput(byte_sum)[B/s]:	2.22397e+08
+throughput(elap)[B/s]:	2.12053e+08
+durable_latency[ms]:	10.8060
+durable_count:	11034402
+durable_epoch:	20099
+abort_counts_:	580
+commit_counts_:	11034402
+maxrss:	566396 kB
+abort_rate:	0.0001
+latency[ns]:	27550.2066
+throughput[tps]:	1379300
+../../ccbench/silo/numa.rb 0,1 23 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	46
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=6362427 byte_count[B]=1023615104 write_latency[s]=8.00113 throughput[B/s]=1.27934e+08 wait_latency[s]=0.0679031
+Logger#1: max_buffers=0 nid_count=7634681 byte_count[B]=1227174448 write_latency[s]=8.06297 throughput[B/s]=1.52199e+08 wait_latency[s]=0.0708048
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	13997108
+wait_time[s]:	0.138708
+write_time[s]:	16.0641
+write_count:	9109
+byte_count[B]:	2250789552
+buffer_count:	703864
+throughput(thread_sum)[B/s]:	2.80133e+08
+throughput(byte_sum)[B/s]:	2.80226e+08
+throughput(elap)[B/s]:	2.68474e+08
+durable_latency[ms]:	13.6919
+durable_count:	13997108
+durable_epoch:	15300
+abort_counts_:	960
+commit_counts_:	13997108
+maxrss:	591664 kB
+abort_rate:	0.0001
+latency[ns]:	26291.1528
+throughput[tps]:	1749638
+../../ccbench/silo/numa.rb 0,1 23 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	46
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=7349672 byte_count[B]=1181687968 write_latency[s]=8.08101 throughput[B/s]=1.4623e+08 wait_latency[s]=0.0472585
+Logger#0: max_buffers=0 nid_count=6242511 byte_count[B]=1004544304 write_latency[s]=8.01399 throughput[B/s]=1.25349e+08 wait_latency[s]=0.0483546
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	13592183
+wait_time[s]:	0.0956131
+write_time[s]:	16.095
+write_count:	9324
+byte_count[B]:	2186232272
+buffer_count:	718287
+throughput(thread_sum)[B/s]:	2.71579e+08
+throughput(byte_sum)[B/s]:	2.71666e+08
+throughput(elap)[B/s]:	2.60771e+08
+durable_latency[ms]:	13.2848
+durable_count:	13592183
+durable_epoch:	15610
+abort_counts_:	872
+commit_counts_:	13592183
+maxrss:	587896 kB
+abort_rate:	0.0001
+latency[ns]:	27074.3993
+throughput[tps]:	1699022
+../../ccbench/silo/numa.rb 0,1 23 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	46
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=6253126 byte_count[B]=1006195808 write_latency[s]=8.01238 throughput[B/s]=1.2558e+08 wait_latency[s]=0.0517655
+Logger#1: max_buffers=0 nid_count=7355161 byte_count[B]=1182520624 write_latency[s]=8.08097 throughput[B/s]=1.46334e+08 wait_latency[s]=0.0473912
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	13608287
+wait_time[s]:	0.0991567
+write_time[s]:	16.0934
+write_count:	9135
+byte_count[B]:	2188716432
+buffer_count:	712531
+throughput(thread_sum)[B/s]:	2.71914e+08
+throughput(byte_sum)[B/s]:	2.72003e+08
+throughput(elap)[B/s]:	2.61037e+08
+durable_latency[ms]:	13.3133
+durable_count:	13608287
+durable_epoch:	15486
+abort_counts_:	897
+commit_counts_:	13608287
+maxrss:	588060 kB
+abort_rate:	0.0001
+latency[ns]:	27042.3595
+throughput[tps]:	1701035
+../../ccbench/silo/numa.rb 0,1 23 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	46
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=7267471 byte_count[B]=1168514560 write_latency[s]=8.06991 throughput[B/s]=1.44799e+08 wait_latency[s]=0.0559731
+Logger#0: max_buffers=0 nid_count=6335049 byte_count[B]=1019327792 write_latency[s]=8.01344 throughput[B/s]=1.27202e+08 wait_latency[s]=0.0509501
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	13602520
+wait_time[s]:	0.106923
+write_time[s]:	16.0834
+write_count:	9174
+byte_count[B]:	2187842352
+buffer_count:	715594
+throughput(thread_sum)[B/s]:	2.72001e+08
+throughput(byte_sum)[B/s]:	2.72063e+08
+throughput(elap)[B/s]:	2.60955e+08
+durable_latency[ms]:	13.3346
+durable_count:	13602520
+durable_epoch:	15552
+abort_counts_:	909
+commit_counts_:	13602520
+maxrss:	587344 kB
+abort_rate:	0.0001
+latency[ns]:	27053.8106
+throughput[tps]:	1700315
+../../ccbench/silo/numa.rb 0,1 23 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	46
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=6423643 byte_count[B]=1033541776 write_latency[s]=8.01982 throughput[B/s]=1.28873e+08 wait_latency[s]=0.0464787
+Logger#1: max_buffers=0 nid_count=7119090 byte_count[B]=1144813792 write_latency[s]=8.06923 throughput[B/s]=1.41874e+08 wait_latency[s]=0.0496181
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	13542733
+wait_time[s]:	0.0960968
+write_time[s]:	16.089
+write_count:	9287
+byte_count[B]:	2178355568
+buffer_count:	720519
+throughput(thread_sum)[B/s]:	2.70747e+08
+throughput(byte_sum)[B/s]:	2.70787e+08
+throughput(elap)[B/s]:	2.59839e+08
+durable_latency[ms]:	12.9512
+durable_count:	13542733
+durable_epoch:	15660
+abort_counts_:	896
+commit_counts_:	13542733
+maxrss:	588568 kB
+abort_rate:	0.0001
+latency[ns]:	27173.2549
+throughput[tps]:	1692841
+../../ccbench/silo/numa.rb 0,1 27 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127,128,129,133,134+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131,132,136,137,138
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	54
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=7754020 byte_count[B]=1245891344 write_latency[s]=8.03295 throughput[B/s]=1.55098e+08 wait_latency[s]=0.0777322
+Logger#1: max_buffers=0 nid_count=9118976 byte_count[B]=1464283152 write_latency[s]=8.0996 throughput[B/s]=1.80785e+08 wait_latency[s]=0.0758707
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16872996
+wait_time[s]:	0.153603
+write_time[s]:	16.1326
+write_count:	7318
+byte_count[B]:	2710174496
+buffer_count:	656701
+throughput(thread_sum)[B/s]:	3.35882e+08
+throughput(byte_sum)[B/s]:	3.35988e+08
+throughput(elap)[B/s]:	3.23242e+08
+durable_latency[ms]:	15.6194
+durable_count:	16872996
+durable_epoch:	12157
+abort_counts_:	1381
+commit_counts_:	16872996
+maxrss:	602328 kB
+abort_rate:	0.0001
+latency[ns]:	25603.0466
+throughput[tps]:	2109124
+../../ccbench/silo/numa.rb 0,1 27 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127,128,129,133,134+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131,132,136,137,138
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	54
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=7560960 byte_count[B]=1215069984 write_latency[s]=8.02708 throughput[B/s]=1.51371e+08 wait_latency[s]=0.0563271
+Logger#1: max_buffers=0 nid_count=9003759 byte_count[B]=1445916640 write_latency[s]=8.092 throughput[B/s]=1.78685e+08 wait_latency[s]=0.0643874
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16564719
+wait_time[s]:	0.120715
+write_time[s]:	16.1191
+write_count:	7417
+byte_count[B]:	2660986624
+buffer_count:	665210
+throughput(thread_sum)[B/s]:	3.30056e+08
+throughput(byte_sum)[B/s]:	3.30166e+08
+throughput(elap)[B/s]:	3.17385e+08
+durable_latency[ms]:	15.9829
+durable_count:	16564719
+durable_epoch:	12315
+abort_counts_:	1325
+commit_counts_:	16564719
+maxrss:	611668 kB
+abort_rate:	0.0001
+latency[ns]:	26079.5358
+throughput[tps]:	2070589
+../../ccbench/silo/numa.rb 0,1 27 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127,128,129,133,134+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131,132,136,137,138
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	54
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=7593076 byte_count[B]=1220199024 write_latency[s]=8.03303 throughput[B/s]=1.51898e+08 wait_latency[s]=0.0723884
+Logger#1: max_buffers=0 nid_count=8842379 byte_count[B]=1420086096 write_latency[s]=8.10494 throughput[B/s]=1.75212e+08 wait_latency[s]=0.0708644
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16435455
+wait_time[s]:	0.143253
+write_time[s]:	16.138
+write_count:	7410
+byte_count[B]:	2640285120
+buffer_count:	664029
+throughput(thread_sum)[B/s]:	3.2711e+08
+throughput(byte_sum)[B/s]:	3.27214e+08
+throughput(elap)[B/s]:	3.1491e+08
+durable_latency[ms]:	15.6059
+durable_count:	16435455
+durable_epoch:	12293
+abort_counts_:	1343
+commit_counts_:	16435455
+maxrss:	605444 kB
+abort_rate:	0.0001
+latency[ns]:	26284.6501
+throughput[tps]:	2054431
+../../ccbench/silo/numa.rb 0,1 27 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127,128,129,133,134+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131,132,136,137,138
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	54
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=7492804 byte_count[B]=1204280992 write_latency[s]=8.02926 throughput[B/s]=1.49987e+08 wait_latency[s]=0.0489135
+Logger#1: max_buffers=0 nid_count=8806003 byte_count[B]=1414392192 write_latency[s]=8.10794 throughput[B/s]=1.74445e+08 wait_latency[s]=0.04412
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16298807
+wait_time[s]:	0.0930334
+write_time[s]:	16.1372
+write_count:	7604
+byte_count[B]:	2618673184
+buffer_count:	679780
+throughput(thread_sum)[B/s]:	3.24432e+08
+throughput(byte_sum)[B/s]:	3.24551e+08
+throughput(elap)[B/s]:	3.1235e+08
+durable_latency[ms]:	15.3580
+durable_count:	16298807
+durable_epoch:	12585
+abort_counts_:	1267
+commit_counts_:	16298807
+maxrss:	606936 kB
+abort_rate:	0.0001
+latency[ns]:	26505.0188
+throughput[tps]:	2037350
+../../ccbench/silo/numa.rb 0,1 27 1
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 135:0,1,2,3,7,8,9,14,15,16,17,21,22,23,112,113,114,115,119,120,121,126,127,128,129,133,134+139:4,5,6,10,11,12,13,18,19,20,24,25,26,27,116,117,118,122,123,124,125,130,131,132,136,137,138
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	54
+#FLAGS_logger_num:	2
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=7693834 byte_count[B]=1236331360 write_latency[s]=8.03612 throughput[B/s]=1.53847e+08 wait_latency[s]=0.0481578
+Logger#1: max_buffers=0 nid_count=8997331 byte_count[B]=1444889888 write_latency[s]=8.1054 throughput[B/s]=1.78263e+08 wait_latency[s]=0.0468859
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16691165
+wait_time[s]:	0.0950437
+write_time[s]:	16.1415
+write_count:	7380
+byte_count[B]:	2681221248
+buffer_count:	665461
+throughput(thread_sum)[B/s]:	3.32109e+08
+throughput(byte_sum)[B/s]:	3.32214e+08
+throughput(elap)[B/s]:	3.19807e+08
+durable_latency[ms]:	15.4468
+durable_count:	16691165
+durable_epoch:	12321
+abort_counts_:	1384
+commit_counts_:	16691165
+maxrss:	602756 kB
+abort_rate:	0.0001
+latency[ns]:	25881.9639
+throughput[tps]:	2086395
+../../ccbench/silo/numa.rb 0,1 2 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0+135:1+138:4+139:5
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	4
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=442368 byte_count[B]=72545424 write_latency[s]=6.07388 throughput[B/s]=1.19438e+07 wait_latency[s]=0.0996516
+Logger#1: max_buffers=0 nid_count=469467 byte_count[B]=76881280 write_latency[s]=6.13564 throughput[B/s]=1.25303e+07 wait_latency[s]=0.106511
+Logger#2: max_buffers=0 nid_count=442093 byte_count[B]=72501712 write_latency[s]=6.07166 throughput[B/s]=1.1941e+07 wait_latency[s]=0.104127
+Logger#0: max_buffers=0 nid_count=468037 byte_count[B]=76652592 write_latency[s]=6.16141 throughput[B/s]=1.24408e+07 wait_latency[s]=0.0995336
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	1821965
+wait_time[s]:	0.409823
+write_time[s]:	24.4426
+write_count:	139586
+byte_count[B]:	298581008
+buffer_count:	441740
+throughput(thread_sum)[B/s]:	4.88559e+07
+throughput(byte_sum)[B/s]:	4.88624e+07
+throughput(elap)[B/s]:	3.56216e+07
+durable_latency[ms]:	2.1945
+durable_count:	1821965
+durable_epoch:	110430
+abort_counts_:	6
+commit_counts_:	1821965
+maxrss:	492728 kB
+abort_rate:	0.0000
+latency[ns]:	17563.5030
+throughput[tps]:	227745
+../../ccbench/silo/numa.rb 0,1 2 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0+135:1+138:4+139:5
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	4
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=457505 byte_count[B]=74963808 write_latency[s]=6.11277 throughput[B/s]=1.22635e+07 wait_latency[s]=0.103878
+Logger#1: max_buffers=0 nid_count=466000 byte_count[B]=76323040 write_latency[s]=6.10357 throughput[B/s]=1.25047e+07 wait_latency[s]=0.106508
+Logger#3: max_buffers=0 nid_count=440676 byte_count[B]=72271232 write_latency[s]=6.04131 throughput[B/s]=1.19628e+07 wait_latency[s]=0.102434
+Logger#2: max_buffers=0 nid_count=447502 byte_count[B]=73363392 write_latency[s]=6.04938 throughput[B/s]=1.21274e+07 wait_latency[s]=0.1033
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	1811683
+wait_time[s]:	0.41612
+write_time[s]:	24.307
+write_count:	139687
+byte_count[B]:	296921472
+buffer_count:	440832
+throughput(thread_sum)[B/s]:	4.88584e+07
+throughput(byte_sum)[B/s]:	4.88618e+07
+throughput(elap)[B/s]:	3.54215e+07
+durable_latency[ms]:	2.2160
+durable_count:	1811683
+durable_epoch:	110204
+abort_counts_:	12
+commit_counts_:	1811683
+maxrss:	492496 kB
+abort_rate:	0.0000
+latency[ns]:	17663.1635
+throughput[tps]:	226460
+../../ccbench/silo/numa.rb 0,1 2 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0+135:1+138:4+139:5
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	4
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=478449 byte_count[B]=78309408 write_latency[s]=6.17601 throughput[B/s]=1.26796e+07 wait_latency[s]=0.111651
+Logger#2: max_buffers=0 nid_count=441937 byte_count[B]=72467632 write_latency[s]=6.09551 throughput[B/s]=1.18887e+07 wait_latency[s]=0.103666
+Logger#3: max_buffers=0 nid_count=437979 byte_count[B]=71834160 write_latency[s]=6.0787 throughput[B/s]=1.18174e+07 wait_latency[s]=0.0990857
+Logger#0: max_buffers=0 nid_count=473728 byte_count[B]=77554032 write_latency[s]=6.20483 throughput[B/s]=1.2499e+07 wait_latency[s]=0.10491
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	1832093
+wait_time[s]:	0.419313
+write_time[s]:	24.555
+write_count:	139820
+byte_count[B]:	300165232
+buffer_count:	439480
+throughput(thread_sum)[B/s]:	4.88846e+07
+throughput(byte_sum)[B/s]:	4.88967e+07
+throughput(elap)[B/s]:	3.58102e+07
+durable_latency[ms]:	2.2301
+durable_count:	1832093
+durable_epoch:	109865
+abort_counts_:	9
+commit_counts_:	1832093
+maxrss:	492376 kB
+abort_rate:	0.0000
+latency[ns]:	17466.4099
+throughput[tps]:	229011
+../../ccbench/silo/numa.rb 0,1 2 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0+135:1+138:4+139:5
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	4
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=445438 byte_count[B]=73019792 write_latency[s]=6.09925 throughput[B/s]=1.19719e+07 wait_latency[s]=0.0926361
+Logger#2: max_buffers=0 nid_count=443906 byte_count[B]=72774624 write_latency[s]=6.1081 throughput[B/s]=1.19145e+07 wait_latency[s]=0.104128
+Logger#1: max_buffers=0 nid_count=473673 byte_count[B]=77537280 write_latency[s]=6.17127 throughput[B/s]=1.25642e+07 wait_latency[s]=0.107923
+Logger#0: max_buffers=0 nid_count=477761 byte_count[B]=78191568 write_latency[s]=6.20687 throughput[B/s]=1.25976e+07 wait_latency[s]=0.105355
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	1840778
+wait_time[s]:	0.410041
+write_time[s]:	24.5855
+write_count:	138629
+byte_count[B]:	301523264
+buffer_count:	437502
+throughput(thread_sum)[B/s]:	4.90482e+07
+throughput(byte_sum)[B/s]:	4.90571e+07
+throughput(elap)[B/s]:	3.59702e+07
+durable_latency[ms]:	2.2220
+durable_count:	1840778
+durable_epoch:	109371
+abort_counts_:	12
+commit_counts_:	1840778
+maxrss:	492148 kB
+abort_rate:	0.0000
+latency[ns]:	17383.9728
+throughput[tps]:	230097
+../../ccbench/silo/numa.rb 0,1 2 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0+135:1+138:4+139:5
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	4
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=442285 byte_count[B]=72500288 write_latency[s]=6.07498 throughput[B/s]=1.19342e+07 wait_latency[s]=0.107442
+Logger#3: max_buffers=0 nid_count=448843 byte_count[B]=73549648 write_latency[s]=6.09157 throughput[B/s]=1.2074e+07 wait_latency[s]=0.109258
+Logger#0: max_buffers=0 nid_count=464992 byte_count[B]=76133552 write_latency[s]=6.17577 throughput[B/s]=1.23278e+07 wait_latency[s]=0.107016
+Logger#1: max_buffers=0 nid_count=458152 byte_count[B]=75039072 write_latency[s]=6.1415 throughput[B/s]=1.22184e+07 wait_latency[s]=0.115403
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	1814272
+wait_time[s]:	0.439119
+write_time[s]:	24.4838
+write_count:	137594
+byte_count[B]:	297222560
+buffer_count:	433790
+throughput(thread_sum)[B/s]:	4.85544e+07
+throughput(byte_sum)[B/s]:	4.85582e+07
+throughput(elap)[B/s]:	3.54579e+07
+durable_latency[ms]:	2.2459
+durable_count:	1814272
+durable_epoch:	108442
+abort_counts_:	7
+commit_counts_:	1814272
+maxrss:	492636 kB
+abort_rate:	0.0000
+latency[ns]:	17637.9286
+throughput[tps]:	226784
+../../ccbench/silo/numa.rb 0,1 6 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2+135:3,7,8+138:4,5,6+139:10,11,12
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	12
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1551623 byte_count[B]=251591616 write_latency[s]=7.22776 throughput[B/s]=3.48091e+07 wait_latency[s]=0.0377608
+Logger#3: max_buffers=0 nid_count=1681410 byte_count[B]=272357456 write_latency[s]=7.241 throughput[B/s]=3.76132e+07 wait_latency[s]=0.0362122
+Logger#2: max_buffers=0 nid_count=1599680 byte_count[B]=259280704 write_latency[s]=7.22246 throughput[B/s]=3.58992e+07 wait_latency[s]=0.0397933
+Logger#0: max_buffers=0 nid_count=2428841 byte_count[B]=391945888 write_latency[s]=7.17873 throughput[B/s]=5.45982e+07 wait_latency[s]=0.0359351
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7261554
+wait_time[s]:	0.149702
+write_time[s]:	28.8699
+write_count:	89324
+byte_count[B]:	1175175664
+buffer_count:	833292
+throughput(thread_sum)[B/s]:	1.6292e+08
+throughput(byte_sum)[B/s]:	1.62823e+08
+throughput(elap)[B/s]:	1.40199e+08
+durable_latency[ms]:	3.4597
+durable_count:	7261554
+durable_epoch:	69435
+abort_counts_:	158
+commit_counts_:	7261554
+maxrss:	512956 kB
+abort_rate:	0.0000
+latency[ns]:	13220.3143
+throughput[tps]:	907694
+../../ccbench/silo/numa.rb 0,1 6 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2+135:3,7,8+138:4,5,6+139:10,11,12
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	12
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=1567316 byte_count[B]=254042800 write_latency[s]=7.19705 throughput[B/s]=3.52982e+07 wait_latency[s]=0.0377225
+Logger#0: max_buffers=0 nid_count=2379509 byte_count[B]=383993424 write_latency[s]=7.16371 throughput[B/s]=5.36026e+07 wait_latency[s]=0.0373694
+Logger#3: max_buffers=0 nid_count=1596903 byte_count[B]=258776784 write_latency[s]=7.20714 throughput[B/s]=3.59056e+07 wait_latency[s]=0.0379954
+Logger#1: max_buffers=0 nid_count=1518463 byte_count[B]=246226192 write_latency[s]=7.19634 throughput[B/s]=3.42155e+07 wait_latency[s]=0.0388663
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7062191
+wait_time[s]:	0.151954
+write_time[s]:	28.7642
+write_count:	87199
+byte_count[B]:	1143039200
+buffer_count:	818366
+throughput(thread_sum)[B/s]:	1.59022e+08
+throughput(byte_sum)[B/s]:	1.58953e+08
+throughput(elap)[B/s]:	1.36356e+08
+durable_latency[ms]:	3.2228
+durable_count:	7062191
+durable_epoch:	68193
+abort_counts_:	125
+commit_counts_:	7062191
+maxrss:	510248 kB
+abort_rate:	0.0000
+latency[ns]:	13593.5286
+throughput[tps]:	882773
+../../ccbench/silo/numa.rb 0,1 6 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2+135:3,7,8+138:4,5,6+139:10,11,12
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	12
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=1661244 byte_count[B]=269090432 write_latency[s]=7.23624 throughput[B/s]=3.71865e+07 wait_latency[s]=0.0402223
+Logger#3: max_buffers=0 nid_count=1596959 byte_count[B]=258804544 write_latency[s]=7.21813 throughput[B/s]=3.58548e+07 wait_latency[s]=0.0408837
+Logger#0: max_buffers=0 nid_count=2401288 byte_count[B]=387496736 write_latency[s]=7.18533 throughput[B/s]=5.39289e+07 wait_latency[s]=0.0378994
+Logger#1: max_buffers=0 nid_count=1468364 byte_count[B]=238229744 write_latency[s]=7.1965 throughput[B/s]=3.31035e+07 wait_latency[s]=0.0393791
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7127855
+wait_time[s]:	0.158384
+write_time[s]:	28.8362
+write_count:	87723
+byte_count[B]:	1153621456
+buffer_count:	823092
+throughput(thread_sum)[B/s]:	1.60074e+08
+throughput(byte_sum)[B/s]:	1.60024e+08
+throughput(elap)[B/s]:	1.37626e+08
+durable_latency[ms]:	3.2499
+durable_count:	7127855
+durable_epoch:	68586
+abort_counts_:	120
+commit_counts_:	7127855
+maxrss:	511016 kB
+abort_rate:	0.0000
+latency[ns]:	13468.3007
+throughput[tps]:	890981
+../../ccbench/silo/numa.rb 0,1 6 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2+135:3,7,8+138:4,5,6+139:10,11,12
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	12
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=1681600 byte_count[B]=272363472 write_latency[s]=7.24975 throughput[B/s]=3.75687e+07 wait_latency[s]=0.03952
+Logger#2: max_buffers=0 nid_count=1645196 byte_count[B]=266539136 write_latency[s]=7.24566 throughput[B/s]=3.6786e+07 wait_latency[s]=0.0400595
+Logger#1: max_buffers=0 nid_count=1574498 byte_count[B]=255227648 write_latency[s]=7.23016 throughput[B/s]=3.53004e+07 wait_latency[s]=0.0379919
+Logger#0: max_buffers=0 nid_count=2357774 byte_count[B]=380551216 write_latency[s]=7.16811 throughput[B/s]=5.30895e+07 wait_latency[s]=0.0362516
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7259068
+wait_time[s]:	0.153823
+write_time[s]:	28.8937
+write_count:	89048
+byte_count[B]:	1174681472
+buffer_count:	827227
+throughput(thread_sum)[B/s]:	1.62745e+08
+throughput(byte_sum)[B/s]:	1.62621e+08
+throughput(elap)[B/s]:	1.40129e+08
+durable_latency[ms]:	3.3697
+durable_count:	7259068
+durable_epoch:	68931
+abort_counts_:	121
+commit_counts_:	7259068
+maxrss:	511036 kB
+abort_rate:	0.0000
+latency[ns]:	13224.8455
+throughput[tps]:	907383
+../../ccbench/silo/numa.rb 0,1 6 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2+135:3,7,8+138:4,5,6+139:10,11,12
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	12
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=2326778 byte_count[B]=375546128 write_latency[s]=7.16751 throughput[B/s]=5.23956e+07 wait_latency[s]=0.0379472
+Logger#3: max_buffers=0 nid_count=1588291 byte_count[B]=257388352 write_latency[s]=7.24343 throughput[B/s]=3.5534e+07 wait_latency[s]=0.0398522
+Logger#2: max_buffers=0 nid_count=1589944 byte_count[B]=257652864 write_latency[s]=7.2323 throughput[B/s]=3.56253e+07 wait_latency[s]=0.0386582
+Logger#1: max_buffers=0 nid_count=1527350 byte_count[B]=247638064 write_latency[s]=7.22876 throughput[B/s]=3.42573e+07 wait_latency[s]=0.0376926
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7032363
+wait_time[s]:	0.15415
+write_time[s]:	28.872
+write_count:	86799
+byte_count[B]:	1138225408
+buffer_count:	815771
+throughput(thread_sum)[B/s]:	1.57812e+08
+throughput(byte_sum)[B/s]:	1.57693e+08
+throughput(elap)[B/s]:	1.35788e+08
+durable_latency[ms]:	3.2740
+durable_count:	7032363
+durable_epoch:	67976
+abort_counts_:	102
+commit_counts_:	7032363
+maxrss:	510568 kB
+abort_rate:	0.0000
+latency[ns]:	13651.1783
+throughput[tps]:	879045
+../../ccbench/silo/numa.rb 0,1 10 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7+135:8,9,14,15,16+138:4,5,6,10,11+139:12,13,18,19,20
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	20
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=2089495 byte_count[B]=338439040 write_latency[s]=7.6041 throughput[B/s]=4.45074e+07 wait_latency[s]=0.0349125
+Logger#1: max_buffers=0 nid_count=2242632 byte_count[B]=362940256 write_latency[s]=7.65451 throughput[B/s]=4.74152e+07 wait_latency[s]=0.0346945
+Logger#3: max_buffers=0 nid_count=2073745 byte_count[B]=335918832 write_latency[s]=7.61231 throughput[B/s]=4.41284e+07 wait_latency[s]=0.0324557
+Logger#0: max_buffers=0 nid_count=1931078 byte_count[B]=313092256 write_latency[s]=7.54409 throughput[B/s]=4.15017e+07 wait_latency[s]=0.0338416
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8336950
+wait_time[s]:	0.135904
+write_time[s]:	30.415
+write_count:	63897
+byte_count[B]:	1350390384
+buffer_count:	1030269
+throughput(thread_sum)[B/s]:	1.77553e+08
+throughput(byte_sum)[B/s]:	1.77595e+08
+throughput(elap)[B/s]:	1.61098e+08
+durable_latency[ms]:	4.0712
+durable_count:	8336950
+durable_epoch:	51508
+abort_counts_:	284
+commit_counts_:	8336950
+maxrss:	528552 kB
+abort_rate:	0.0000
+latency[ns]:	19191.6846
+throughput[tps]:	1042118
+../../ccbench/silo/numa.rb 0,1 10 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7+135:8,9,14,15,16+138:4,5,6,10,11+139:12,13,18,19,20
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	20
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=1977266 byte_count[B]=320474832 write_latency[s]=7.552 throughput[B/s]=4.24357e+07 wait_latency[s]=0.0339876
+Logger#3: max_buffers=0 nid_count=2016540 byte_count[B]=326758672 write_latency[s]=7.60024 throughput[B/s]=4.29932e+07 wait_latency[s]=0.0348893
+Logger#1: max_buffers=0 nid_count=2207358 byte_count[B]=357289792 write_latency[s]=7.64602 throughput[B/s]=4.67288e+07 wait_latency[s]=0.0352287
+Logger#2: max_buffers=0 nid_count=2119614 byte_count[B]=343250448 write_latency[s]=7.62589 throughput[B/s]=4.50112e+07 wait_latency[s]=0.0357789
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8320778
+wait_time[s]:	0.139884
+write_time[s]:	30.4242
+write_count:	63997
+byte_count[B]:	1347773744
+buffer_count:	1028448
+throughput(thread_sum)[B/s]:	1.77169e+08
+throughput(byte_sum)[B/s]:	1.77198e+08
+throughput(elap)[B/s]:	1.60782e+08
+durable_latency[ms]:	4.0967
+durable_count:	8320778
+durable_epoch:	51417
+abort_counts_:	298
+commit_counts_:	8320778
+maxrss:	527356 kB
+abort_rate:	0.0000
+latency[ns]:	19228.9758
+throughput[tps]:	1040097
+../../ccbench/silo/numa.rb 0,1 10 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7+135:8,9,14,15,16+138:4,5,6,10,11+139:12,13,18,19,20
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	20
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=2046010 byte_count[B]=331437952 write_latency[s]=7.56632 throughput[B/s]=4.38044e+07 wait_latency[s]=0.0351685
+Logger#1: max_buffers=0 nid_count=2251538 byte_count[B]=364322096 write_latency[s]=7.60995 throughput[B/s]=4.78745e+07 wait_latency[s]=0.0356158
+Logger#2: max_buffers=0 nid_count=2097395 byte_count[B]=339659264 write_latency[s]=7.57137 throughput[B/s]=4.4861e+07 wait_latency[s]=0.0355937
+Logger#0: max_buffers=0 nid_count=1947812 byte_count[B]=315726224 write_latency[s]=7.51502 throughput[B/s]=4.20127e+07 wait_latency[s]=0.0374945
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8342755
+wait_time[s]:	0.143872
+write_time[s]:	30.2627
+write_count:	63149
+byte_count[B]:	1351145536
+buffer_count:	1019436
+throughput(thread_sum)[B/s]:	1.78553e+08
+throughput(byte_sum)[B/s]:	1.78589e+08
+throughput(elap)[B/s]:	1.61178e+08
+durable_latency[ms]:	4.4170
+durable_count:	8342755
+durable_epoch:	50968
+abort_counts_:	305
+commit_counts_:	8342755
+maxrss:	530592 kB
+abort_rate:	0.0000
+latency[ns]:	19178.3239
+throughput[tps]:	1042844
+../../ccbench/silo/numa.rb 0,1 10 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7+135:8,9,14,15,16+138:4,5,6,10,11+139:12,13,18,19,20
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	20
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=2246767 byte_count[B]=363593648 write_latency[s]=7.64767 throughput[B/s]=4.7543e+07 wait_latency[s]=0.0359524
+Logger#0: max_buffers=0 nid_count=1947629 byte_count[B]=315731840 write_latency[s]=7.54057 throughput[B/s]=4.18711e+07 wait_latency[s]=0.0349709
+Logger#2: max_buffers=0 nid_count=2030340 byte_count[B]=328965280 write_latency[s]=7.59398 throughput[B/s]=4.33192e+07 wait_latency[s]=0.0354749
+Logger#3: max_buffers=0 nid_count=1980097 byte_count[B]=320926512 write_latency[s]=7.59317 throughput[B/s]=4.22652e+07 wait_latency[s]=0.0344206
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8204833
+wait_time[s]:	0.140819
+write_time[s]:	30.3754
+write_count:	63634
+byte_count[B]:	1329217280
+buffer_count:	1028128
+throughput(thread_sum)[B/s]:	1.74999e+08
+throughput(byte_sum)[B/s]:	1.75039e+08
+throughput(elap)[B/s]:	1.58558e+08
+durable_latency[ms]:	4.0298
+durable_count:	8204833
+durable_epoch:	51402
+abort_counts_:	269
+commit_counts_:	8204833
+maxrss:	527076 kB
+abort_rate:	0.0000
+latency[ns]:	19500.7040
+throughput[tps]:	1025604
+../../ccbench/silo/numa.rb 0,1 10 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7+135:8,9,14,15,16+138:4,5,6,10,11+139:12,13,18,19,20
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	20
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=2107137 byte_count[B]=341259824 write_latency[s]=7.62482 throughput[B/s]=4.47565e+07 wait_latency[s]=0.0336314
+Logger#1: max_buffers=0 nid_count=2240561 byte_count[B]=362607248 write_latency[s]=7.64598 throughput[B/s]=4.74245e+07 wait_latency[s]=0.0358491
+Logger#3: max_buffers=0 nid_count=2085190 byte_count[B]=337748240 write_latency[s]=7.61596 throughput[B/s]=4.43474e+07 wait_latency[s]=0.0320714
+Logger#0: max_buffers=0 nid_count=1910666 byte_count[B]=309824208 write_latency[s]=7.53054 throughput[B/s]=4.11424e+07 wait_latency[s]=0.034759
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	8343554
+wait_time[s]:	0.136311
+write_time[s]:	30.4173
+write_count:	64100
+byte_count[B]:	1351439520
+buffer_count:	1029816
+throughput(thread_sum)[B/s]:	1.77671e+08
+throughput(byte_sum)[B/s]:	1.7772e+08
+throughput(elap)[B/s]:	1.61223e+08
+durable_latency[ms]:	4.1723
+durable_count:	8343554
+durable_epoch:	51487
+abort_counts_:	284
+commit_counts_:	8343554
+maxrss:	528840 kB
+abort_rate:	0.0000
+latency[ns]:	19176.4850
+throughput[tps]:	1042944
+../../ccbench/silo/numa.rb 0,1 14 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9+135:14,15,16,17,21,22,23+138:4,5,6,10,11,12,13+139:18,19,20,24,25,26,27
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	28
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=5285776 byte_count[B]=850937360 write_latency[s]=7.85318 throughput[B/s]=1.08356e+08 wait_latency[s]=0.0353619
+Logger#0: max_buffers=0 nid_count=4496070 byte_count[B]=724584944 write_latency[s]=7.7796 throughput[B/s]=9.31391e+07 wait_latency[s]=0.0353016
+Logger#1: max_buffers=0 nid_count=4148179 byte_count[B]=668922848 write_latency[s]=7.79179 throughput[B/s]=8.58497e+07 wait_latency[s]=0.034952
+Logger#3: max_buffers=0 nid_count=2465754 byte_count[B]=399735760 write_latency[s]=7.60891 throughput[B/s]=5.25352e+07 wait_latency[s]=0.0350139
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16395779
+wait_time[s]:	0.140629
+write_time[s]:	31.0335
+write_count:	60734
+byte_count[B]:	2644180912
+buffer_count:	1304252
+throughput(thread_sum)[B/s]:	3.3988e+08
+throughput(byte_sum)[B/s]:	3.40817e+08
+throughput(elap)[B/s]:	3.15435e+08
+durable_latency[ms]:	4.5291
+durable_count:	16395779
+durable_epoch:	46577
+abort_counts_:	737
+commit_counts_:	16395779
+maxrss:	547728 kB
+abort_rate:	0.0000
+latency[ns]:	13662.0554
+throughput[tps]:	2049472
+../../ccbench/silo/numa.rb 0,1 14 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9+135:14,15,16,17,21,22,23+138:4,5,6,10,11,12,13+139:18,19,20,24,25,26,27
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	28
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=6135745 byte_count[B]=986930480 write_latency[s]=7.87862 throughput[B/s]=1.25267e+08 wait_latency[s]=0.0389412
+Logger#0: max_buffers=0 nid_count=4328156 byte_count[B]=697717264 write_latency[s]=7.77844 throughput[B/s]=8.96989e+07 wait_latency[s]=0.0357822
+Logger#3: max_buffers=0 nid_count=2163063 byte_count[B]=351304176 write_latency[s]=7.5727 throughput[B/s]=4.63909e+07 wait_latency[s]=0.0353089
+Logger#1: max_buffers=0 nid_count=4391501 byte_count[B]=707852800 write_latency[s]=7.81147 throughput[B/s]=9.06171e+07 wait_latency[s]=0.0366883
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	17018465
+wait_time[s]:	0.146721
+write_time[s]:	31.0412
+write_count:	60775
+byte_count[B]:	2743804720
+buffer_count:	1303899
+throughput(thread_sum)[B/s]:	3.51974e+08
+throughput(byte_sum)[B/s]:	3.53569e+08
+throughput(elap)[B/s]:	3.27322e+08
+durable_latency[ms]:	4.4871
+durable_count:	17018465
+durable_epoch:	46563
+abort_counts_:	799
+commit_counts_:	17018465
+maxrss:	546688 kB
+abort_rate:	0.0000
+latency[ns]:	13162.1749
+throughput[tps]:	2127308
+../../ccbench/silo/numa.rb 0,1 14 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9+135:14,15,16,17,21,22,23+138:4,5,6,10,11,12,13+139:18,19,20,24,25,26,27
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	28
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=3123052 byte_count[B]=504890896 write_latency[s]=7.67725 throughput[B/s]=6.57646e+07 wait_latency[s]=0.0328681
+Logger#2: max_buffers=0 nid_count=5096299 byte_count[B]=820609680 write_latency[s]=7.85641 throughput[B/s]=1.04451e+08 wait_latency[s]=0.0328661
+Logger#1: max_buffers=0 nid_count=2924592 byte_count[B]=473137600 write_latency[s]=7.67406 throughput[B/s]=6.16542e+07 wait_latency[s]=0.0328675
+Logger#0: max_buffers=0 nid_count=5513660 byte_count[B]=887386960 write_latency[s]=7.83093 throughput[B/s]=1.13318e+08 wait_latency[s]=0.0350651
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16657603
+wait_time[s]:	0.133667
+write_time[s]:	31.0386
+write_count:	60397
+byte_count[B]:	2686025136
+buffer_count:	1301236
+throughput(thread_sum)[B/s]:	3.45188e+08
+throughput(byte_sum)[B/s]:	3.46152e+08
+throughput(elap)[B/s]:	3.2043e+08
+durable_latency[ms]:	4.5288
+durable_count:	16657603
+durable_epoch:	46469
+abort_counts_:	776
+commit_counts_:	16657603
+maxrss:	545244 kB
+abort_rate:	0.0000
+latency[ns]:	13447.3153
+throughput[tps]:	2082200
+../../ccbench/silo/numa.rb 0,1 14 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9+135:14,15,16,17,21,22,23+138:4,5,6,10,11,12,13+139:18,19,20,24,25,26,27
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	28
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=4699368 byte_count[B]=757051456 write_latency[s]=7.833 throughput[B/s]=9.6649e+07 wait_latency[s]=0.0346957
+Logger#1: max_buffers=0 nid_count=3652984 byte_count[B]=589630432 write_latency[s]=7.73988 throughput[B/s]=7.61808e+07 wait_latency[s]=0.033516
+Logger#3: max_buffers=0 nid_count=2689973 byte_count[B]=435549504 write_latency[s]=7.62841 throughput[B/s]=5.70957e+07 wait_latency[s]=0.0304608
+Logger#0: max_buffers=0 nid_count=4893602 byte_count[B]=788128480 write_latency[s]=7.79395 throughput[B/s]=1.01121e+08 wait_latency[s]=0.036379
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	15935927
+wait_time[s]:	0.135052
+write_time[s]:	30.9952
+write_count:	59459
+byte_count[B]:	2570359872
+buffer_count:	1288984
+throughput(thread_sum)[B/s]:	3.31046e+08
+throughput(byte_sum)[B/s]:	3.3171e+08
+throughput(elap)[B/s]:	3.06632e+08
+durable_latency[ms]:	4.6282
+durable_count:	15935927
+durable_epoch:	46029
+abort_counts_:	718
+commit_counts_:	15935927
+maxrss:	549216 kB
+abort_rate:	0.0000
+latency[ns]:	14056.2955
+throughput[tps]:	1991990
+../../ccbench/silo/numa.rb 0,1 14 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9+135:14,15,16,17,21,22,23+138:4,5,6,10,11,12,13+139:18,19,20,24,25,26,27
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	28
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=5173359 byte_count[B]=832862112 write_latency[s]=7.86179 throughput[B/s]=1.05938e+08 wait_latency[s]=0.0349051
+Logger#1: max_buffers=0 nid_count=3617279 byte_count[B]=583890400 write_latency[s]=7.74018 throughput[B/s]=7.54363e+07 wait_latency[s]=0.0336372
+Logger#3: max_buffers=0 nid_count=2555385 byte_count[B]=413988224 write_latency[s]=7.63162 throughput[B/s]=5.42464e+07 wait_latency[s]=0.0319111
+Logger#0: max_buffers=0 nid_count=4879637 byte_count[B]=785867152 write_latency[s]=7.79759 throughput[B/s]=1.00783e+08 wait_latency[s]=0.0341849
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16225660
+wait_time[s]:	0.134638
+write_time[s]:	31.0312
+write_count:	59116
+byte_count[B]:	2616607888
+buffer_count:	1282056
+throughput(thread_sum)[B/s]:	3.36404e+08
+throughput(byte_sum)[B/s]:	3.37288e+08
+throughput(elap)[B/s]:	3.1215e+08
+durable_latency[ms]:	4.5051
+durable_count:	16225660
+durable_epoch:	45782
+abort_counts_:	746
+commit_counts_:	16225660
+maxrss:	547184 kB
+abort_rate:	0.0000
+latency[ns]:	13805.2970
+throughput[tps]:	2028207
+../../ccbench/silo/numa.rb 0,1 18 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15+135:16,17,21,22,23,112,113,114,115+138:4,5,6,10,11,12,13,18,19+139:20,24,25,26,27,116,117,118,122
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	36
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=3634871 byte_count[B]=587190640 write_latency[s]=7.85432 throughput[B/s]=7.47602e+07 wait_latency[s]=0.0486291
+Logger#3: max_buffers=0 nid_count=4048924 byte_count[B]=653438880 write_latency[s]=7.82086 throughput[B/s]=8.35508e+07 wait_latency[s]=0.0457239
+Logger#0: max_buffers=0 nid_count=4163408 byte_count[B]=671756576 write_latency[s]=7.85984 throughput[B/s]=8.54669e+07 wait_latency[s]=0.0501147
+Logger#1: max_buffers=0 nid_count=3980063 byte_count[B]=642421296 write_latency[s]=7.82999 throughput[B/s]=8.20463e+07 wait_latency[s]=0.0474496
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	15827266
+wait_time[s]:	0.191917
+write_time[s]:	31.365
+write_count:	49694
+byte_count[B]:	2554807392
+buffer_count:	1403524
+throughput(thread_sum)[B/s]:	3.25824e+08
+throughput(byte_sum)[B/s]:	3.25816e+08
+throughput(elap)[B/s]:	3.04773e+08
+durable_latency[ms]:	5.1000
+durable_count:	15827266
+durable_epoch:	38984
+abort_counts_:	937
+commit_counts_:	15827266
+maxrss:	566632 kB
+abort_rate:	0.0001
+latency[ns]:	18196.4489
+throughput[tps]:	1978408
+../../ccbench/silo/numa.rb 0,1 18 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15+135:16,17,21,22,23,112,113,114,115+138:4,5,6,10,11,12,13,18,19+139:20,24,25,26,27,116,117,118,122
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	36
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=4228421 byte_count[B]=682206816 write_latency[s]=7.84327 throughput[B/s]=8.69798e+07 wait_latency[s]=0.0473783
+Logger#3: max_buffers=0 nid_count=3901383 byte_count[B]=629880992 write_latency[s]=7.81174 throughput[B/s]=8.06326e+07 wait_latency[s]=0.0461686
+Logger#0: max_buffers=0 nid_count=4261327 byte_count[B]=687471856 write_latency[s]=7.8657 throughput[B/s]=8.74013e+07 wait_latency[s]=0.0485626
+Logger#2: max_buffers=0 nid_count=3742678 byte_count[B]=604488144 write_latency[s]=7.85164 throughput[B/s]=7.69887e+07 wait_latency[s]=0.0514677
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16133809
+wait_time[s]:	0.193577
+write_time[s]:	31.3724
+write_count:	50410
+byte_count[B]:	2604047808
+buffer_count:	1415618
+throughput(thread_sum)[B/s]:	3.32002e+08
+throughput(byte_sum)[B/s]:	3.32018e+08
+throughput(elap)[B/s]:	3.10646e+08
+durable_latency[ms]:	5.0662
+durable_count:	16133809
+durable_epoch:	39319
+abort_counts_:	922
+commit_counts_:	16133809
+maxrss:	568004 kB
+abort_rate:	0.0001
+latency[ns]:	17850.7145
+throughput[tps]:	2016726
+../../ccbench/silo/numa.rb 0,1 18 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15+135:16,17,21,22,23,112,113,114,115+138:4,5,6,10,11,12,13,18,19+139:20,24,25,26,27,116,117,118,122
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	36
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=4246640 byte_count[B]=685108464 write_latency[s]=7.85727 throughput[B/s]=8.71942e+07 wait_latency[s]=0.0626123
+Logger#2: max_buffers=0 nid_count=3792248 byte_count[B]=612406080 write_latency[s]=7.85489 throughput[B/s]=7.79649e+07 wait_latency[s]=0.0631474
+Logger#1: max_buffers=0 nid_count=4086708 byte_count[B]=659519104 write_latency[s]=7.84087 throughput[B/s]=8.4113e+07 wait_latency[s]=0.0607687
+Logger#3: max_buffers=0 nid_count=3876434 byte_count[B]=625875120 write_latency[s]=7.80036 throughput[B/s]=8.02367e+07 wait_latency[s]=0.0605274
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16002030
+wait_time[s]:	0.247056
+write_time[s]:	31.3534
+write_count:	50209
+byte_count[B]:	2582908768
+buffer_count:	1412183
+throughput(thread_sum)[B/s]:	3.29509e+08
+throughput(byte_sum)[B/s]:	3.29522e+08
+throughput(elap)[B/s]:	3.08126e+08
+durable_latency[ms]:	5.1370
+durable_count:	16002030
+durable_epoch:	39224
+abort_counts_:	940
+commit_counts_:	16002030
+maxrss:	568208 kB
+abort_rate:	0.0001
+latency[ns]:	17997.7233
+throughput[tps]:	2000253
+../../ccbench/silo/numa.rb 0,1 18 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15+135:16,17,21,22,23,112,113,114,115+138:4,5,6,10,11,12,13,18,19+139:20,24,25,26,27,116,117,118,122
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	36
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=3603110 byte_count[B]=582084048 write_latency[s]=7.82853 throughput[B/s]=7.43542e+07 wait_latency[s]=0.0894797
+Logger#0: max_buffers=0 nid_count=4501299 byte_count[B]=725794224 write_latency[s]=7.87002 throughput[B/s]=9.22227e+07 wait_latency[s]=0.0858115
+Logger#3: max_buffers=0 nid_count=4018141 byte_count[B]=648488432 write_latency[s]=7.81085 throughput[B/s]=8.30241e+07 wait_latency[s]=0.0845035
+Logger#1: max_buffers=0 nid_count=3931106 byte_count[B]=634563104 write_latency[s]=7.82213 throughput[B/s]=8.11241e+07 wait_latency[s]=0.0850757
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16053656
+wait_time[s]:	0.34487
+write_time[s]:	31.3315
+write_count:	49436
+byte_count[B]:	2590929808
+buffer_count:	1397266
+throughput(thread_sum)[B/s]:	3.30725e+08
+throughput(byte_sum)[B/s]:	3.30776e+08
+throughput(elap)[B/s]:	3.09085e+08
+durable_latency[ms]:	5.1553
+durable_count:	16053656
+durable_epoch:	38808
+abort_counts_:	962
+commit_counts_:	16053656
+maxrss:	568800 kB
+abort_rate:	0.0001
+latency[ns]:	17939.8388
+throughput[tps]:	2006707
+../../ccbench/silo/numa.rb 0,1 18 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15+135:16,17,21,22,23,112,113,114,115+138:4,5,6,10,11,12,13,18,19+139:20,24,25,26,27,116,117,118,122
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	36
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=3863625 byte_count[B]=623780512 write_latency[s]=7.81294 throughput[B/s]=7.98394e+07 wait_latency[s]=0.0713265
+Logger#2: max_buffers=0 nid_count=3438136 byte_count[B]=555702752 write_latency[s]=7.82661 throughput[B/s]=7.10017e+07 wait_latency[s]=0.0781627
+Logger#0: max_buffers=0 nid_count=4289951 byte_count[B]=691992656 write_latency[s]=7.86202 throughput[B/s]=8.80172e+07 wait_latency[s]=0.0745948
+Logger#1: max_buffers=0 nid_count=4417615 byte_count[B]=712418752 write_latency[s]=7.86537 throughput[B/s]=9.05767e+07 wait_latency[s]=0.0753093
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	16009327
+wait_time[s]:	0.299393
+write_time[s]:	31.3669
+write_count:	49639
+byte_count[B]:	2583894672
+buffer_count:	1400936
+throughput(thread_sum)[B/s]:	3.29435e+08
+throughput(byte_sum)[B/s]:	3.29506e+08
+throughput(elap)[B/s]:	3.08245e+08
+durable_latency[ms]:	5.3900
+durable_count:	16009327
+durable_epoch:	38910
+abort_counts_:	908
+commit_counts_:	16009327
+maxrss:	571048 kB
+abort_rate:	0.0001
+latency[ns]:	17989.5211
+throughput[tps]:	2001165
+../../ccbench/silo/numa.rb 0,1 22 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17+135:21,22,23,112,113,114,115,119,120,121,126+138:4,5,6,10,11,12,13,18,19,20,24+139:25,26,27,116,117,118,122,123,124,125,130
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	44
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=4256269 byte_count[B]=686742208 write_latency[s]=7.94578 throughput[B/s]=8.64285e+07 wait_latency[s]=0.0485397
+Logger#0: max_buffers=0 nid_count=4518078 byte_count[B]=728631904 write_latency[s]=7.92848 throughput[B/s]=9.19006e+07 wait_latency[s]=0.0524621
+Logger#3: max_buffers=0 nid_count=4319419 byte_count[B]=696846384 write_latency[s]=7.87623 throughput[B/s]=8.84746e+07 wait_latency[s]=0.0491255
+Logger#1: max_buffers=0 nid_count=4847802 byte_count[B]=781387424 write_latency[s]=7.92724 throughput[B/s]=9.857e+07 wait_latency[s]=0.0522603
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	17941568
+wait_time[s]:	0.202388
+write_time[s]:	31.6777
+write_count:	42006
+byte_count[B]:	2893607920
+buffer_count:	1435590
+throughput(thread_sum)[B/s]:	3.65374e+08
+throughput(byte_sum)[B/s]:	3.65381e+08
+throughput(elap)[B/s]:	3.45169e+08
+durable_latency[ms]:	5.8589
+durable_count:	17941568
+durable_epoch:	32622
+abort_counts_:	1127
+commit_counts_:	17941568
+maxrss:	584892 kB
+abort_rate:	0.0001
+latency[ns]:	19619.2440
+throughput[tps]:	2242696
+../../ccbench/silo/numa.rb 0,1 22 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17+135:21,22,23,112,113,114,115,119,120,121,126+138:4,5,6,10,11,12,13,18,19,20,24+139:25,26,27,116,117,118,122,123,124,125,130
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	44
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=4297199 byte_count[B]=693328720 write_latency[s]=7.88142 throughput[B/s]=8.797e+07 wait_latency[s]=0.0501223
+Logger#1: max_buffers=0 nid_count=4925431 byte_count[B]=793845872 write_latency[s]=7.92284 throughput[B/s]=1.00197e+08 wait_latency[s]=0.0583757
+Logger#2: max_buffers=0 nid_count=4156693 byte_count[B]=670848400 write_latency[s]=7.92899 throughput[B/s]=8.46071e+07 wait_latency[s]=0.0501219
+Logger#0: max_buffers=0 nid_count=4561592 byte_count[B]=735631824 write_latency[s]=7.92253 throughput[B/s]=9.28531e+07 wait_latency[s]=0.0597791
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	17940915
+wait_time[s]:	0.218399
+write_time[s]:	31.6558
+write_count:	42509
+byte_count[B]:	2893654816
+buffer_count:	1445113
+throughput(thread_sum)[B/s]:	3.65627e+08
+throughput(byte_sum)[B/s]:	3.6564e+08
+throughput(elap)[B/s]:	3.45162e+08
+durable_latency[ms]:	5.9006
+durable_count:	17940915
+durable_epoch:	32841
+abort_counts_:	1083
+commit_counts_:	17940915
+maxrss:	584436 kB
+abort_rate:	0.0001
+latency[ns]:	19619.9613
+throughput[tps]:	2242614
+../../ccbench/silo/numa.rb 0,1 22 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17+135:21,22,23,112,113,114,115,119,120,121,126+138:4,5,6,10,11,12,13,18,19,20,24+139:25,26,27,116,117,118,122,123,124,125,130
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	44
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=4654582 byte_count[B]=750553200 write_latency[s]=7.92598 throughput[B/s]=9.46953e+07 wait_latency[s]=0.0560684
+Logger#1: max_buffers=0 nid_count=5002929 byte_count[B]=806288576 write_latency[s]=7.93158 throughput[B/s]=1.01655e+08 wait_latency[s]=0.0525428
+Logger#3: max_buffers=0 nid_count=4171833 byte_count[B]=673313616 write_latency[s]=7.87137 throughput[B/s]=8.55396e+07 wait_latency[s]=0.0491691
+Logger#2: max_buffers=0 nid_count=4219795 byte_count[B]=680987456 write_latency[s]=7.93774 throughput[B/s]=8.57911e+07 wait_latency[s]=0.0499238
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18049139
+wait_time[s]:	0.207704
+write_time[s]:	31.6667
+write_count:	42781
+byte_count[B]:	2911142848
+buffer_count:	1455823
+throughput(thread_sum)[B/s]:	3.67681e+08
+throughput(byte_sum)[B/s]:	3.67723e+08
+throughput(elap)[B/s]:	3.47266e+08
+durable_latency[ms]:	5.8506
+durable_count:	18049139
+durable_epoch:	33084
+abort_counts_:	1242
+commit_counts_:	18049139
+maxrss:	585084 kB
+abort_rate:	0.0001
+latency[ns]:	19502.3186
+throughput[tps]:	2256142
+../../ccbench/silo/numa.rb 0,1 22 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17+135:21,22,23,112,113,114,115,119,120,121,126+138:4,5,6,10,11,12,13,18,19,20,24+139:25,26,27,116,117,118,122,123,124,125,130
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	44
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=4899774 byte_count[B]=789727312 write_latency[s]=7.93196 throughput[B/s]=9.95627e+07 wait_latency[s]=0.0441566
+Logger#3: max_buffers=0 nid_count=4398110 byte_count[B]=709461680 write_latency[s]=7.89106 throughput[B/s]=8.9907e+07 wait_latency[s]=0.0449839
+Logger#2: max_buffers=0 nid_count=4204918 byte_count[B]=678550656 write_latency[s]=7.94047 throughput[B/s]=8.54547e+07 wait_latency[s]=0.0437405
+Logger#0: max_buffers=0 nid_count=4493924 byte_count[B]=724791840 write_latency[s]=7.92827 throughput[B/s]=9.14186e+07 wait_latency[s]=0.0449887
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	17996726
+wait_time[s]:	0.17787
+write_time[s]:	31.6918
+write_count:	42190
+byte_count[B]:	2902531488
+buffer_count:	1441753
+throughput(thread_sum)[B/s]:	3.66343e+08
+throughput(byte_sum)[B/s]:	3.66345e+08
+throughput(elap)[B/s]:	3.46232e+08
+durable_latency[ms]:	5.7880
+durable_count:	17996726
+durable_epoch:	32763
+abort_counts_:	1375
+commit_counts_:	17996726
+maxrss:	586312 kB
+abort_rate:	0.0001
+latency[ns]:	19559.1197
+throughput[tps]:	2249590
+../../ccbench/silo/numa.rb 0,1 22 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17+135:21,22,23,112,113,114,115,119,120,121,126+138:4,5,6,10,11,12,13,18,19,20,24+139:25,26,27,116,117,118,122,123,124,125,130
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	44
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=4182248 byte_count[B]=674933792 write_latency[s]=7.87225 throughput[B/s]=8.57358e+07 wait_latency[s]=0.0753241
+Logger#2: max_buffers=0 nid_count=4330625 byte_count[B]=698674032 write_latency[s]=7.94867 throughput[B/s]=8.78983e+07 wait_latency[s]=0.0770127
+Logger#1: max_buffers=0 nid_count=4961005 byte_count[B]=799534176 write_latency[s]=7.93775 throughput[B/s]=1.00726e+08 wait_latency[s]=0.0752966
+Logger#0: max_buffers=0 nid_count=4558697 byte_count[B]=735165472 write_latency[s]=7.93019 throughput[B/s]=9.27046e+07 wait_latency[s]=0.080448
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18032575
+wait_time[s]:	0.308081
+write_time[s]:	31.6889
+write_count:	42333
+byte_count[B]:	2908307472
+buffer_count:	1444297
+throughput(thread_sum)[B/s]:	3.67064e+08
+throughput(byte_sum)[B/s]:	3.67108e+08
+throughput(elap)[B/s]:	3.46914e+08
+durable_latency[ms]:	5.8913
+durable_count:	18032575
+durable_epoch:	32821
+abort_counts_:	1249
+commit_counts_:	18032575
+maxrss:	585792 kB
+abort_rate:	0.0001
+latency[ns]:	19520.2369
+throughput[tps]:	2254071
+../../ccbench/silo/numa.rb 0,1 26 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17,21,22+135:23,112,113,114,115,119,120,121,126,127,128,129,133+138:4,5,6,10,11,12,13,18,19,20,24,25,26+139:27,116,117,118,122,123,124,125,130,131,132,136,137
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	52
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=4731931 byte_count[B]=762876000 write_latency[s]=7.95819 throughput[B/s]=9.58605e+07 wait_latency[s]=0.0716285
+Logger#1: max_buffers=0 nid_count=4925047 byte_count[B]=793774512 write_latency[s]=7.98002 throughput[B/s]=9.94703e+07 wait_latency[s]=0.0784211
+Logger#0: max_buffers=0 nid_count=4610757 byte_count[B]=743488512 write_latency[s]=7.93074 throughput[B/s]=9.37477e+07 wait_latency[s]=0.0758725
+Logger#2: max_buffers=0 nid_count=4613765 byte_count[B]=743969712 write_latency[s]=7.94196 throughput[B/s]=9.36759e+07 wait_latency[s]=0.0817564
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18881500
+wait_time[s]:	0.307678
+write_time[s]:	31.8109
+write_count:	33897
+byte_count[B]:	3044108736
+buffer_count:	1442650
+throughput(thread_sum)[B/s]:	3.82754e+08
+throughput(byte_sum)[B/s]:	3.82776e+08
+throughput(elap)[B/s]:	3.63134e+08
+durable_latency[ms]:	6.5756
+durable_count:	18881500
+durable_epoch:	27738
+abort_counts_:	1440
+commit_counts_:	18881500
+maxrss:	606264 kB
+abort_rate:	0.0001
+latency[ns]:	22032.1525
+throughput[tps]:	2360187
+../../ccbench/silo/numa.rb 0,1 26 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17,21,22+135:23,112,113,114,115,119,120,121,126,127,128,129,133+138:4,5,6,10,11,12,13,18,19,20,24,25,26+139:27,116,117,118,122,123,124,125,130,131,132,136,137
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	52
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=4713037 byte_count[B]=759841888 write_latency[s]=7.89493 throughput[B/s]=9.62443e+07 wait_latency[s]=0.0882635
+Logger#1: max_buffers=0 nid_count=4927743 byte_count[B]=794194800 write_latency[s]=7.9262 throughput[B/s]=1.00199e+08 wait_latency[s]=0.0795001
+Logger#3: max_buffers=0 nid_count=4663530 byte_count[B]=751920912 write_latency[s]=7.90057 throughput[B/s]=9.5173e+07 wait_latency[s]=0.0713616
+Logger#0: max_buffers=0 nid_count=4645092 byte_count[B]=748970880 write_latency[s]=7.88102 throughput[B/s]=9.50348e+07 wait_latency[s]=0.0721762
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18949402
+wait_time[s]:	0.311301
+write_time[s]:	31.6027
+write_count:	33908
+byte_count[B]:	3054928480
+buffer_count:	1439874
+throughput(thread_sum)[B/s]:	3.86651e+08
+throughput(byte_sum)[B/s]:	3.86666e+08
+throughput(elap)[B/s]:	3.64385e+08
+durable_latency[ms]:	7.3132
+durable_count:	18949402
+durable_epoch:	27684
+abort_counts_:	1431
+commit_counts_:	18949402
+maxrss:	616044 kB
+abort_rate:	0.0001
+latency[ns]:	21953.2017
+throughput[tps]:	2368675
+../../ccbench/silo/numa.rb 0,1 26 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17,21,22+135:23,112,113,114,115,119,120,121,126,127,128,129,133+138:4,5,6,10,11,12,13,18,19,20,24,25,26+139:27,116,117,118,122,123,124,125,130,131,132,136,137
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	52
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=4613589 byte_count[B]=743945520 write_latency[s]=7.93528 throughput[B/s]=9.37516e+07 wait_latency[s]=0.0758873
+Logger#3: max_buffers=0 nid_count=4470431 byte_count[B]=721040272 write_latency[s]=7.92531 throughput[B/s]=9.09795e+07 wait_latency[s]=0.0751324
+Logger#0: max_buffers=0 nid_count=4642299 byte_count[B]=748539536 write_latency[s]=7.91945 throughput[B/s]=9.45192e+07 wait_latency[s]=0.074494
+Logger#1: max_buffers=0 nid_count=4952578 byte_count[B]=798183904 write_latency[s]=7.96728 throughput[B/s]=1.00183e+08 wait_latency[s]=0.0785519
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18678897
+wait_time[s]:	0.304066
+write_time[s]:	31.7473
+write_count:	33834
+byte_count[B]:	3011709232
+buffer_count:	1443685
+throughput(thread_sum)[B/s]:	3.79433e+08
+throughput(byte_sum)[B/s]:	3.7946e+08
+throughput(elap)[B/s]:	3.59264e+08
+durable_latency[ms]:	6.3505
+durable_count:	18678897
+durable_epoch:	27758
+abort_counts_:	1452
+commit_counts_:	18678897
+maxrss:	604716 kB
+abort_rate:	0.0001
+latency[ns]:	22271.1235
+throughput[tps]:	2334862
+../../ccbench/silo/numa.rb 0,1 26 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17,21,22+135:23,112,113,114,115,119,120,121,126,127,128,129,133+138:4,5,6,10,11,12,13,18,19,20,24,25,26+139:27,116,117,118,122,123,124,125,130,131,132,136,137
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	52
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=5017625 byte_count[B]=808642480 write_latency[s]=7.99666 throughput[B/s]=1.01122e+08 wait_latency[s]=0.0714496
+Logger#2: max_buffers=0 nid_count=4600189 byte_count[B]=741852752 write_latency[s]=7.95766 throughput[B/s]=9.3225e+07 wait_latency[s]=0.0685541
+Logger#0: max_buffers=0 nid_count=4633566 byte_count[B]=747192624 write_latency[s]=7.94328 throughput[B/s]=9.40661e+07 wait_latency[s]=0.0713554
+Logger#3: max_buffers=0 nid_count=4434890 byte_count[B]=715404960 write_latency[s]=7.94779 throughput[B/s]=9.00131e+07 wait_latency[s]=0.0691737
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18686270
+wait_time[s]:	0.280533
+write_time[s]:	31.8454
+write_count:	34135
+byte_count[B]:	3013092816
+buffer_count:	1456434
+throughput(thread_sum)[B/s]:	3.78427e+08
+throughput(byte_sum)[B/s]:	3.78465e+08
+throughput(elap)[B/s]:	3.59437e+08
+durable_latency[ms]:	6.5089
+durable_count:	18686270
+durable_epoch:	28003
+abort_counts_:	1442
+commit_counts_:	18686270
+maxrss:	602428 kB
+abort_rate:	0.0001
+latency[ns]:	22262.3420
+throughput[tps]:	2335783
+../../ccbench/silo/numa.rb 0,1 26 2
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 134:0,1,2,3,7,8,9,14,15,16,17,21,22+135:23,112,113,114,115,119,120,121,126,127,128,129,133+138:4,5,6,10,11,12,13,18,19,20,24,25,26+139:27,116,117,118,122,123,124,125,130,131,132,136,137
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	52
+#FLAGS_logger_num:	4
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=4426455 byte_count[B]=714059008 write_latency[s]=7.94315 throughput[B/s]=8.98962e+07 wait_latency[s]=0.0467178
+Logger#1: max_buffers=0 nid_count=5037649 byte_count[B]=811849664 write_latency[s]=8.00064 throughput[B/s]=1.01473e+08 wait_latency[s]=0.0505106
+Logger#2: max_buffers=0 nid_count=4433203 byte_count[B]=715138288 write_latency[s]=7.94791 throughput[B/s]=8.99782e+07 wait_latency[s]=0.0480098
+Logger#0: max_buffers=0 nid_count=4766969 byte_count[B]=768540848 write_latency[s]=7.95306 throughput[B/s]=9.66347e+07 wait_latency[s]=0.0487145
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18664276
+wait_time[s]:	0.193953
+write_time[s]:	31.8448
+write_count:	34164
+byte_count[B]:	3009587808
+buffer_count:	1457309
+throughput(thread_sum)[B/s]:	3.77982e+08
+throughput(byte_sum)[B/s]:	3.78032e+08
+throughput(elap)[B/s]:	3.59016e+08
+durable_latency[ms]:	6.4437
+durable_count:	18664276
+durable_epoch:	28022
+abort_counts_:	1433
+commit_counts_:	18664276
+maxrss:	602156 kB
+abort_rate:	0.0001
+latency[ns]:	22288.5736
+throughput[tps]:	2333034
+../../ccbench/silo/numa.rb 0,1 5 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0+134:1,2+135:3,7+137:4+138:5,6+139:10,11
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	10
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=932726 byte_count[B]=151678128 write_latency[s]=6.91257 throughput[B/s]=2.19424e+07 wait_latency[s]=0.040157
+Logger#0: max_buffers=0 nid_count=1933044 byte_count[B]=310507104 write_latency[s]=6.98502 throughput[B/s]=4.44533e+07 wait_latency[s]=0.0872252
+Logger#2: max_buffers=0 nid_count=931464 byte_count[B]=151476384 write_latency[s]=6.91768 throughput[B/s]=2.1897e+07 wait_latency[s]=0.0401313
+Logger#4: max_buffers=0 nid_count=832656 byte_count[B]=135667408 write_latency[s]=6.86078 throughput[B/s]=1.97743e+07 wait_latency[s]=0.0429609
+Logger#5: max_buffers=0 nid_count=843393 byte_count[B]=137385280 write_latency[s]=6.85702 throughput[B/s]=2.00357e+07 wait_latency[s]=0.0422892
+Logger#3: max_buffers=0 nid_count=2013314 byte_count[B]=323350272 write_latency[s]=7.0065 throughput[B/s]=4.615e+07 wait_latency[s]=0.0809764
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7486597
+wait_time[s]:	0.33374
+write_time[s]:	41.5396
+write_count:	156586
+byte_count[B]:	1210064576
+buffer_count:	763411
+throughput(thread_sum)[B/s]:	1.74253e+08
+throughput(byte_sum)[B/s]:	1.74782e+08
+throughput(elap)[B/s]:	1.44362e+08
+durable_latency[ms]:	3.3958
+durable_count:	7486597
+durable_epoch:	76335
+abort_counts_:	108
+commit_counts_:	7486597
+maxrss:	507812 kB
+abort_rate:	0.0000
+latency[ns]:	10685.7700
+throughput[tps]:	935824
+../../ccbench/silo/numa.rb 0,1 5 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0+134:1,2+135:3,7+137:4+138:5,6+139:10,11
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	10
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=985198 byte_count[B]=160062016 write_latency[s]=6.89474 throughput[B/s]=2.32151e+07 wait_latency[s]=0.0467384
+Logger#0: max_buffers=0 nid_count=1934672 byte_count[B]=310761584 write_latency[s]=6.9047 throughput[B/s]=4.50072e+07 wait_latency[s]=0.10393
+Logger#3: max_buffers=0 nid_count=1973614 byte_count[B]=316992480 write_latency[s]=6.95588 throughput[B/s]=4.55719e+07 wait_latency[s]=0.0825196
+Logger#5: max_buffers=0 nid_count=833515 byte_count[B]=135792864 write_latency[s]=6.79411 throughput[B/s]=1.99869e+07 wait_latency[s]=0.0431231
+Logger#4: max_buffers=0 nid_count=838675 byte_count[B]=136618576 write_latency[s]=6.80269 throughput[B/s]=2.0083e+07 wait_latency[s]=0.0428951
+Logger#1: max_buffers=0 nid_count=962830 byte_count[B]=156483088 write_latency[s]=6.8794 throughput[B/s]=2.27466e+07 wait_latency[s]=0.0468404
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7528504
+wait_time[s]:	0.366047
+write_time[s]:	41.2315
+write_count:	156240
+byte_count[B]:	1216710608
+buffer_count:	759733
+throughput(thread_sum)[B/s]:	1.76611e+08
+throughput(byte_sum)[B/s]:	1.77055e+08
+throughput(elap)[B/s]:	1.45154e+08
+durable_latency[ms]:	3.2466
+durable_count:	7528504
+durable_epoch:	75969
+abort_counts_:	108
+commit_counts_:	7528504
+maxrss:	508180 kB
+abort_rate:	0.0000
+latency[ns]:	10626.2811
+throughput[tps]:	941063
+../../ccbench/silo/numa.rb 0,1 5 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0+134:1,2+135:3,7+137:4+138:5,6+139:10,11
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	10
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=1966221 byte_count[B]=315795632 write_latency[s]=6.9961 throughput[B/s]=4.51388e+07 wait_latency[s]=0.0931328
+Logger#5: max_buffers=0 nid_count=862803 byte_count[B]=140451136 write_latency[s]=6.87962 throughput[B/s]=2.04155e+07 wait_latency[s]=0.0488851
+Logger#1: max_buffers=0 nid_count=939191 byte_count[B]=152673440 write_latency[s]=6.91152 throughput[B/s]=2.20897e+07 wait_latency[s]=0.0518637
+Logger#4: max_buffers=0 nid_count=871502 byte_count[B]=141842864 write_latency[s]=6.88095 throughput[B/s]=2.06138e+07 wait_latency[s]=0.0493753
+Logger#0: max_buffers=0 nid_count=1877855 byte_count[B]=301657232 write_latency[s]=6.98845 throughput[B/s]=4.31651e+07 wait_latency[s]=0.101697
+Logger#2: max_buffers=0 nid_count=921510 byte_count[B]=149844240 write_latency[s]=6.90911 throughput[B/s]=2.16879e+07 wait_latency[s]=0.0535287
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7439082
+wait_time[s]:	0.398482
+write_time[s]:	41.5657
+write_count:	153558
+byte_count[B]:	1202264544
+buffer_count:	751068
+throughput(thread_sum)[B/s]:	1.73111e+08
+throughput(byte_sum)[B/s]:	1.73546e+08
+throughput(elap)[B/s]:	1.43426e+08
+durable_latency[ms]:	3.0764
+durable_count:	7439082
+durable_epoch:	75105
+abort_counts_:	109
+commit_counts_:	7439082
+maxrss:	506280 kB
+abort_rate:	0.0000
+latency[ns]:	10754.0180
+throughput[tps]:	929885
+../../ccbench/silo/numa.rb 0,1 5 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0+134:1,2+135:3,7+137:4+138:5,6+139:10,11
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	10
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=940663 byte_count[B]=152895328 write_latency[s]=6.92719 throughput[B/s]=2.20718e+07 wait_latency[s]=0.0476346
+Logger#1: max_buffers=0 nid_count=917732 byte_count[B]=149226176 write_latency[s]=6.91178 throughput[B/s]=2.15901e+07 wait_latency[s]=0.0478279
+Logger#0: max_buffers=0 nid_count=1883947 byte_count[B]=302625056 write_latency[s]=6.97929 throughput[B/s]=4.33604e+07 wait_latency[s]=0.0954278
+Logger#3: max_buffers=0 nid_count=1947716 byte_count[B]=312828064 write_latency[s]=6.98688 throughput[B/s]=4.47737e+07 wait_latency[s]=0.0844047
+Logger#4: max_buffers=0 nid_count=858456 byte_count[B]=139742480 write_latency[s]=6.86838 throughput[B/s]=2.03458e+07 wait_latency[s]=0.0427722
+Logger#5: max_buffers=0 nid_count=830532 byte_count[B]=135274448 write_latency[s]=6.84242 throughput[B/s]=1.977e+07 wait_latency[s]=0.0414336
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7379046
+wait_time[s]:	0.359501
+write_time[s]:	41.5159
+write_count:	151544
+byte_count[B]:	1192591552
+buffer_count:	746864
+throughput(thread_sum)[B/s]:	1.71912e+08
+throughput(byte_sum)[B/s]:	1.72357e+08
+throughput(elap)[B/s]:	1.42272e+08
+durable_latency[ms]:	3.1592
+durable_count:	7379046
+durable_epoch:	74683
+abort_counts_:	98
+commit_counts_:	7379046
+maxrss:	506540 kB
+abort_rate:	0.0000
+latency[ns]:	10841.5187
+throughput[tps]:	922380
+../../ccbench/silo/numa.rb 0,1 5 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0+134:1,2+135:3,7+137:4+138:5,6+139:10,11
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	10
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=939520 byte_count[B]=152740896 write_latency[s]=6.90066 throughput[B/s]=2.21343e+07 wait_latency[s]=0.050209
+Logger#0: max_buffers=0 nid_count=1880778 byte_count[B]=302131936 write_latency[s]=6.9353 throughput[B/s]=4.35644e+07 wait_latency[s]=0.102657
+Logger#2: max_buffers=0 nid_count=951622 byte_count[B]=154677040 write_latency[s]=6.89563 throughput[B/s]=2.24312e+07 wait_latency[s]=0.0451985
+Logger#3: max_buffers=0 nid_count=1927656 byte_count[B]=309632272 write_latency[s]=6.95872 throughput[B/s]=4.44956e+07 wait_latency[s]=0.089794
+Logger#5: max_buffers=0 nid_count=826663 byte_count[B]=134683664 write_latency[s]=6.82282 throughput[B/s]=1.97402e+07 wait_latency[s]=0.0445412
+Logger#4: max_buffers=0 nid_count=861493 byte_count[B]=140256592 write_latency[s]=6.84963 throughput[B/s]=2.04765e+07 wait_latency[s]=0.0425523
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	7387732
+wait_time[s]:	0.374952
+write_time[s]:	41.3627
+write_count:	155546
+byte_count[B]:	1194122400
+buffer_count:	755686
+throughput(thread_sum)[B/s]:	1.72842e+08
+throughput(byte_sum)[B/s]:	1.73217e+08
+throughput(elap)[B/s]:	1.42453e+08
+durable_latency[ms]:	3.1597
+durable_count:	7387732
+durable_epoch:	75563
+abort_counts_:	110
+commit_counts_:	7387732
+maxrss:	507424 kB
+abort_rate:	0.0000
+latency[ns]:	10828.7690
+throughput[tps]:	923466
+../../ccbench/silo/numa.rb 0,1 9 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2+134:3,7,8+135:9,14,15+137:4,5,6+138:10,11,12+139:13,18,19
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	18
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=2051318 byte_count[B]=330666688 write_latency[s]=7.38658 throughput[B/s]=4.47659e+07 wait_latency[s]=0.0428196
+Logger#3: max_buffers=0 nid_count=1754127 byte_count[B]=283116208 write_latency[s]=7.47669 throughput[B/s]=3.78665e+07 wait_latency[s]=0.0436468
+Logger#4: max_buffers=0 nid_count=1697739 byte_count[B]=274094048 write_latency[s]=7.46847 throughput[B/s]=3.67002e+07 wait_latency[s]=0.0431325
+Logger#5: max_buffers=0 nid_count=1651039 byte_count[B]=266622208 write_latency[s]=7.46969 throughput[B/s]=3.56939e+07 wait_latency[s]=0.0425086
+Logger#1: max_buffers=0 nid_count=1792984 byte_count[B]=289333536 write_latency[s]=7.49071 throughput[B/s]=3.86256e+07 wait_latency[s]=0.0441953
+Logger#2: max_buffers=0 nid_count=1797182 byte_count[B]=290005104 write_latency[s]=7.48939 throughput[B/s]=3.87221e+07 wait_latency[s]=0.0445421
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10744389
+wait_time[s]:	0.260845
+write_time[s]:	44.7815
+write_count:	95866
+byte_count[B]:	1733837792
+buffer_count:	921431
+throughput(thread_sum)[B/s]:	2.32374e+08
+throughput(byte_sum)[B/s]:	2.32306e+08
+throughput(elap)[B/s]:	2.06841e+08
+durable_latency[ms]:	3.8933
+durable_count:	10744389
+durable_epoch:	51186
+abort_counts_:	338
+commit_counts_:	10744389
+maxrss:	525980 kB
+abort_rate:	0.0000
+latency[ns]:	13402.3505
+throughput[tps]:	1343048
+../../ccbench/silo/numa.rb 0,1 9 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2+134:3,7,8+135:9,14,15+137:4,5,6+138:10,11,12+139:13,18,19
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	18
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#4: max_buffers=0 nid_count=1794955 byte_count[B]=289668416 write_latency[s]=7.48216 throughput[B/s]=3.87145e+07 wait_latency[s]=0.0442061
+Logger#2: max_buffers=0 nid_count=1742834 byte_count[B]=281328880 write_latency[s]=7.47782 throughput[B/s]=3.76218e+07 wait_latency[s]=0.0430218
+Logger#5: max_buffers=0 nid_count=1702350 byte_count[B]=274851344 write_latency[s]=7.46824 throughput[B/s]=3.68027e+07 wait_latency[s]=0.0513537
+Logger#1: max_buffers=0 nid_count=1734895 byte_count[B]=280058576 write_latency[s]=7.47921 throughput[B/s]=3.74449e+07 wait_latency[s]=0.0447153
+Logger#3: max_buffers=0 nid_count=1743350 byte_count[B]=281411488 write_latency[s]=7.4765 throughput[B/s]=3.76395e+07 wait_latency[s]=0.042721
+Logger#0: max_buffers=0 nid_count=2003416 byte_count[B]=323021680 write_latency[s]=7.39391 throughput[B/s]=4.36876e+07 wait_latency[s]=0.0442812
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10721800
+wait_time[s]:	0.270299
+write_time[s]:	44.7778
+write_count:	96842
+byte_count[B]:	1730340384
+buffer_count:	928736
+throughput(thread_sum)[B/s]:	2.31911e+08
+throughput(byte_sum)[B/s]:	2.31857e+08
+throughput(elap)[B/s]:	2.06425e+08
+durable_latency[ms]:	3.7876
+durable_count:	10721800
+durable_epoch:	51591
+abort_counts_:	368
+commit_counts_:	10721800
+maxrss:	524976 kB
+abort_rate:	0.0000
+latency[ns]:	13430.5807
+throughput[tps]:	1340225
+../../ccbench/silo/numa.rb 0,1 9 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2+134:3,7,8+135:9,14,15+137:4,5,6+138:10,11,12+139:13,18,19
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	18
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1901301 byte_count[B]=306678816 write_latency[s]=7.49865 throughput[B/s]=4.08979e+07 wait_latency[s]=0.0371185
+Logger#4: max_buffers=0 nid_count=1625064 byte_count[B]=262481136 write_latency[s]=7.46068 throughput[B/s]=3.51819e+07 wait_latency[s]=0.0375294
+Logger#0: max_buffers=0 nid_count=2190725 byte_count[B]=352986832 write_latency[s]=7.41854 throughput[B/s]=4.75817e+07 wait_latency[s]=0.0352507
+Logger#5: max_buffers=0 nid_count=1627085 byte_count[B]=262804304 write_latency[s]=7.46925 throughput[B/s]=3.51848e+07 wait_latency[s]=0.0343178
+Logger#3: max_buffers=0 nid_count=1665754 byte_count[B]=268991440 write_latency[s]=7.46963 throughput[B/s]=3.60114e+07 wait_latency[s]=0.0373514
+Logger#2: max_buffers=0 nid_count=1802637 byte_count[B]=290892848 write_latency[s]=7.48935 throughput[B/s]=3.88409e+07 wait_latency[s]=0.0361942
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10812566
+wait_time[s]:	0.217762
+write_time[s]:	44.8061
+write_count:	96511
+byte_count[B]:	1744835376
+buffer_count:	927066
+throughput(thread_sum)[B/s]:	2.33699e+08
+throughput(byte_sum)[B/s]:	2.33651e+08
+throughput(elap)[B/s]:	2.08144e+08
+durable_latency[ms]:	3.8455
+durable_count:	10812566
+durable_epoch:	51499
+abort_counts_:	326
+commit_counts_:	10812566
+maxrss:	524552 kB
+abort_rate:	0.0000
+latency[ns]:	13317.8452
+throughput[tps]:	1351570
+../../ccbench/silo/numa.rb 0,1 9 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2+134:3,7,8+135:9,14,15+137:4,5,6+138:10,11,12+139:13,18,19
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	18
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=1694679 byte_count[B]=273576320 write_latency[s]=7.49013 throughput[B/s]=3.65249e+07 wait_latency[s]=0.0344173
+Logger#2: max_buffers=0 nid_count=1764747 byte_count[B]=284787312 write_latency[s]=7.4911 throughput[B/s]=3.80167e+07 wait_latency[s]=0.0413544
+Logger#3: max_buffers=0 nid_count=1724676 byte_count[B]=278376096 write_latency[s]=7.48742 throughput[B/s]=3.71792e+07 wait_latency[s]=0.0342924
+Logger#5: max_buffers=0 nid_count=1722959 byte_count[B]=278101024 write_latency[s]=7.50378 throughput[B/s]=3.70614e+07 wait_latency[s]=0.0341096
+Logger#4: max_buffers=0 nid_count=1713950 byte_count[B]=276659664 write_latency[s]=7.49374 throughput[B/s]=3.69188e+07 wait_latency[s]=0.0343677
+Logger#0: max_buffers=0 nid_count=1988071 byte_count[B]=320519056 write_latency[s]=7.40172 throughput[B/s]=4.33033e+07 wait_latency[s]=0.0329037
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10609082
+wait_time[s]:	0.211445
+write_time[s]:	44.8679
+write_count:	94905
+byte_count[B]:	1712019472
+buffer_count:	910864
+throughput(thread_sum)[B/s]:	2.29004e+08
+throughput(byte_sum)[B/s]:	2.28941e+08
+throughput(elap)[B/s]:	2.04228e+08
+durable_latency[ms]:	3.8537
+durable_count:	10609082
+durable_epoch:	50600
+abort_counts_:	349
+commit_counts_:	10609082
+maxrss:	524400 kB
+abort_rate:	0.0000
+latency[ns]:	13573.2787
+throughput[tps]:	1326135
+../../ccbench/silo/numa.rb 0,1 9 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2+134:3,7,8+135:9,14,15+137:4,5,6+138:10,11,12+139:13,18,19
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	18
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=1735291 byte_count[B]=280132016 write_latency[s]=7.45556 throughput[B/s]=3.75736e+07 wait_latency[s]=0.0331379
+Logger#0: max_buffers=0 nid_count=2101769 byte_count[B]=338768368 write_latency[s]=7.36736 throughput[B/s]=4.59823e+07 wait_latency[s]=0.0330341
+Logger#4: max_buffers=0 nid_count=1701420 byte_count[B]=274712400 write_latency[s]=7.4519 throughput[B/s]=3.68647e+07 wait_latency[s]=0.0340607
+Logger#1: max_buffers=0 nid_count=1812913 byte_count[B]=292551296 write_latency[s]=7.46022 throughput[B/s]=3.92148e+07 wait_latency[s]=0.0350863
+Logger#2: max_buffers=0 nid_count=1769441 byte_count[B]=285595920 write_latency[s]=7.46143 throughput[B/s]=3.82763e+07 wait_latency[s]=0.0338318
+Logger#5: max_buffers=0 nid_count=1720582 byte_count[B]=277778432 write_latency[s]=7.45065 throughput[B/s]=3.72824e+07 wait_latency[s]=0.0325539
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	10841416
+wait_time[s]:	0.201705
+write_time[s]:	44.6471
+write_count:	97067
+byte_count[B]:	1749538432
+buffer_count:	932499
+throughput(thread_sum)[B/s]:	2.35194e+08
+throughput(byte_sum)[B/s]:	2.35115e+08
+throughput(elap)[B/s]:	2.087e+08
+durable_latency[ms]:	3.7277
+durable_count:	10841416
+durable_epoch:	51800
+abort_counts_:	375
+commit_counts_:	10841416
+maxrss:	524540 kB
+abort_rate:	0.0000
+latency[ns]:	13282.3978
+throughput[tps]:	1355177
+../../ccbench/silo/numa.rb 0,1 13 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3+134:7,8,9,14+135:15,16,17,21,22+137:4,5,6,10+138:11,12,13,18+139:19,20,24,25,26
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	26
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=2960906 byte_count[B]=476482240 write_latency[s]=7.72409 throughput[B/s]=6.16878e+07 wait_latency[s]=0.036738
+Logger#2: max_buffers=0 nid_count=2364082 byte_count[B]=381675616 write_latency[s]=7.67377 throughput[B/s]=4.97377e+07 wait_latency[s]=0.0396279
+Logger#4: max_buffers=0 nid_count=3399729 byte_count[B]=546693536 write_latency[s]=7.74591 throughput[B/s]=7.05784e+07 wait_latency[s]=0.0359328
+Logger#0: max_buffers=0 nid_count=3500846 byte_count[B]=562872336 write_latency[s]=7.7093 throughput[B/s]=7.30121e+07 wait_latency[s]=0.0365843
+Logger#5: max_buffers=0 nid_count=2509205 byte_count[B]=404895120 write_latency[s]=7.69466 throughput[B/s]=5.26203e+07 wait_latency[s]=0.0332791
+Logger#3: max_buffers=0 nid_count=3448310 byte_count[B]=554466464 write_latency[s]=7.75356 throughput[B/s]=7.15112e+07 wait_latency[s]=0.0356803
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18183078
+wait_time[s]:	0.217842
+write_time[s]:	46.3013
+write_count:	81835
+byte_count[B]:	2927085312
+buffer_count:	1112897
+throughput(thread_sum)[B/s]:	3.79147e+08
+throughput(byte_sum)[B/s]:	3.79309e+08
+throughput(elap)[B/s]:	3.49163e+08
+durable_latency[ms]:	4.4908
+durable_count:	18183078
+durable_epoch:	42800
+abort_counts_:	852
+commit_counts_:	18183078
+maxrss:	544212 kB
+abort_rate:	0.0000
+latency[ns]:	11439.2112
+throughput[tps]:	2272884
+../../ccbench/silo/numa.rb 0,1 13 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3+134:7,8,9,14+135:15,16,17,21,22+137:4,5,6,10+138:11,12,13,18+139:19,20,24,25,26
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	26
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=2413746 byte_count[B]=389610960 write_latency[s]=7.69183 throughput[B/s]=5.06526e+07 wait_latency[s]=0.0562186
+Logger#1: max_buffers=0 nid_count=3049043 byte_count[B]=490575504 write_latency[s]=7.74506 throughput[B/s]=6.33404e+07 wait_latency[s]=0.0584769
+Logger#4: max_buffers=0 nid_count=3241116 byte_count[B]=521307168 write_latency[s]=7.73656 throughput[B/s]=6.73823e+07 wait_latency[s]=0.0588547
+Logger#5: max_buffers=0 nid_count=2441388 byte_count[B]=394033648 write_latency[s]=7.68498 throughput[B/s]=5.12732e+07 wait_latency[s]=0.0572226
+Logger#0: max_buffers=0 nid_count=3458146 byte_count[B]=556031680 write_latency[s]=7.70657 throughput[B/s]=7.21503e+07 wait_latency[s]=0.0618931
+Logger#3: max_buffers=0 nid_count=3226169 byte_count[B]=518915744 write_latency[s]=7.73501 throughput[B/s]=6.70866e+07 wait_latency[s]=0.0570596
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	17829608
+wait_time[s]:	0.349726
+write_time[s]:	46.3
+write_count:	81765
+byte_count[B]:	2870474704
+buffer_count:	1109377
+throughput(thread_sum)[B/s]:	3.71885e+08
+throughput(byte_sum)[B/s]:	3.71984e+08
+throughput(elap)[B/s]:	3.42431e+08
+durable_latency[ms]:	4.5172
+durable_count:	17829608
+durable_epoch:	42663
+abort_counts_:	856
+commit_counts_:	17829608
+maxrss:	544208 kB
+abort_rate:	0.0000
+latency[ns]:	11665.9884
+throughput[tps]:	2228701
+../../ccbench/silo/numa.rb 0,1 13 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3+134:7,8,9,14+135:15,16,17,21,22+137:4,5,6,10+138:11,12,13,18+139:19,20,24,25,26
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	26
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#5: max_buffers=0 nid_count=2404522 byte_count[B]=388108592 write_latency[s]=7.68989 throughput[B/s]=5.047e+07 wait_latency[s]=0.0310508
+Logger#1: max_buffers=0 nid_count=2990947 byte_count[B]=481259136 write_latency[s]=7.73735 throughput[B/s]=6.21995e+07 wait_latency[s]=0.035078
+Logger#2: max_buffers=0 nid_count=2431737 byte_count[B]=392463200 write_latency[s]=7.70366 throughput[B/s]=5.0945e+07 wait_latency[s]=0.0326356
+Logger#4: max_buffers=0 nid_count=2889645 byte_count[B]=465050752 write_latency[s]=7.72668 throughput[B/s]=6.01876e+07 wait_latency[s]=0.0322831
+Logger#0: max_buffers=0 nid_count=3735284 byte_count[B]=600352352 write_latency[s]=7.72656 throughput[B/s]=7.76998e+07 wait_latency[s]=0.0365709
+Logger#3: max_buffers=0 nid_count=3119268 byte_count[B]=501790416 write_latency[s]=7.74279 throughput[B/s]=6.48074e+07 wait_latency[s]=0.0314625
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	17571403
+wait_time[s]:	0.199081
+write_time[s]:	46.3269
+write_count:	81056
+byte_count[B]:	2829024448
+buffer_count:	1100855
+throughput(thread_sum)[B/s]:	3.66309e+08
+throughput(byte_sum)[B/s]:	3.66399e+08
+throughput(elap)[B/s]:	3.37489e+08
+durable_latency[ms]:	4.4568
+durable_count:	17571403
+durable_epoch:	42336
+abort_counts_:	805
+commit_counts_:	17571403
+maxrss:	543228 kB
+abort_rate:	0.0000
+latency[ns]:	11837.4176
+throughput[tps]:	2196425
+../../ccbench/silo/numa.rb 0,1 13 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3+134:7,8,9,14+135:15,16,17,21,22+137:4,5,6,10+138:11,12,13,18+139:19,20,24,25,26
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	26
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=3063293 byte_count[B]=492863344 write_latency[s]=7.72413 throughput[B/s]=6.38082e+07 wait_latency[s]=0.0355957
+Logger#5: max_buffers=0 nid_count=2355208 byte_count[B]=380254784 write_latency[s]=7.65959 throughput[B/s]=4.96443e+07 wait_latency[s]=0.0364138
+Logger#4: max_buffers=0 nid_count=3026378 byte_count[B]=486956544 write_latency[s]=7.72149 throughput[B/s]=6.30651e+07 wait_latency[s]=0.0365257
+Logger#2: max_buffers=0 nid_count=2440318 byte_count[B]=393871904 write_latency[s]=7.68783 throughput[B/s]=5.12332e+07 wait_latency[s]=0.03641
+Logger#0: max_buffers=0 nid_count=3610332 byte_count[B]=580388896 write_latency[s]=7.71274 throughput[B/s]=7.52506e+07 wait_latency[s]=0.042845
+Logger#3: max_buffers=0 nid_count=2804479 byte_count[B]=451453232 write_latency[s]=7.70607 throughput[B/s]=5.85841e+07 wait_latency[s]=0.0389146
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	17300008
+wait_time[s]:	0.226705
+write_time[s]:	46.2118
+write_count:	81627
+byte_count[B]:	2785788704
+buffer_count:	1112479
+throughput(thread_sum)[B/s]:	3.61586e+08
+throughput(byte_sum)[B/s]:	3.61698e+08
+throughput(elap)[B/s]:	3.32331e+08
+durable_latency[ms]:	4.4832
+durable_count:	17300008
+durable_epoch:	42782
+abort_counts_:	788
+commit_counts_:	17300008
+maxrss:	544036 kB
+abort_rate:	0.0000
+latency[ns]:	12023.1158
+throughput[tps]:	2162501
+../../ccbench/silo/numa.rb 0,1 13 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3+134:7,8,9,14+135:15,16,17,21,22+137:4,5,6,10+138:11,12,13,18+139:19,20,24,25,26
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	26
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=3590991 byte_count[B]=577285120 write_latency[s]=7.70548 throughput[B/s]=7.49187e+07 wait_latency[s]=0.0337515
+Logger#2: max_buffers=0 nid_count=2374571 byte_count[B]=383341152 write_latency[s]=7.6686 throughput[B/s]=4.99884e+07 wait_latency[s]=0.0334421
+Logger#3: max_buffers=0 nid_count=3446169 byte_count[B]=554113600 write_latency[s]=7.74016 throughput[B/s]=7.15894e+07 wait_latency[s]=0.0338385
+Logger#5: max_buffers=0 nid_count=2517727 byte_count[B]=406245888 write_latency[s]=7.68525 throughput[B/s]=5.28604e+07 wait_latency[s]=0.032032
+Logger#1: max_buffers=0 nid_count=3071820 byte_count[B]=494218048 write_latency[s]=7.72805 throughput[B/s]=6.39512e+07 wait_latency[s]=0.0334829
+Logger#4: max_buffers=0 nid_count=3436624 byte_count[B]=552586304 write_latency[s]=7.74029 throughput[B/s]=7.13909e+07 wait_latency[s]=0.034514
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	18437902
+wait_time[s]:	0.201061
+write_time[s]:	46.2678
+write_count:	81798
+byte_count[B]:	2967790112
+buffer_count:	1108699
+throughput(thread_sum)[B/s]:	3.84699e+08
+throughput(byte_sum)[B/s]:	3.84862e+08
+throughput(elap)[B/s]:	3.54021e+08
+durable_latency[ms]:	4.4371
+durable_count:	18437902
+durable_epoch:	42639
+abort_counts_:	868
+commit_counts_:	18437902
+maxrss:	543788 kB
+abort_rate:	0.0000
+latency[ns]:	11281.1136
+throughput[tps]:	2304737
+../../ccbench/silo/numa.rb 0,1 17 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7+134:8,9,14,15,16,17+135:21,22,23,112,113,114+137:4,5,6,10,11+138:12,13,18,19,20,24+139:25,26,27,116,117,118
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	34
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=3670645 byte_count[B]=591115632 write_latency[s]=7.77492 throughput[B/s]=7.60285e+07 wait_latency[s]=0.0420134
+Logger#1: max_buffers=0 nid_count=2600674 byte_count[B]=419920784 write_latency[s]=7.76706 throughput[B/s]=5.40643e+07 wait_latency[s]=0.0459208
+Logger#0: max_buffers=0 nid_count=4790666 byte_count[B]=769682384 write_latency[s]=7.83612 throughput[B/s]=9.82223e+07 wait_latency[s]=0.0462733
+Logger#3: max_buffers=0 nid_count=4022957 byte_count[B]=646849248 write_latency[s]=7.82896 throughput[B/s]=8.26227e+07 wait_latency[s]=0.052257
+Logger#4: max_buffers=0 nid_count=2570502 byte_count[B]=415093440 write_latency[s]=7.74732 throughput[B/s]=5.3579e+07 wait_latency[s]=0.0466767
+Logger#5: max_buffers=0 nid_count=3496447 byte_count[B]=563243856 write_latency[s]=7.74903 throughput[B/s]=7.26857e+07 wait_latency[s]=0.0310076
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	21151891
+wait_time[s]:	0.264149
+write_time[s]:	46.7034
+write_count:	73576
+byte_count[B]:	3405905344
+buffer_count:	1351125
+throughput(thread_sum)[B/s]:	4.37203e+08
+throughput(byte_sum)[B/s]:	4.37558e+08
+throughput(elap)[B/s]:	4.06279e+08
+durable_latency[ms]:	4.5141
+durable_count:	21151891
+durable_epoch:	39734
+abort_counts_:	1181
+commit_counts_:	21151891
+maxrss:	562872 kB
+abort_rate:	0.0001
+latency[ns]:	12859.3722
+throughput[tps]:	2643986
+../../ccbench/silo/numa.rb 0,1 17 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7+134:8,9,14,15,16,17+135:21,22,23,112,113,114+137:4,5,6,10,11+138:12,13,18,19,20,24+139:25,26,27,116,117,118
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	34
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=3921363 byte_count[B]=630580048 write_latency[s]=7.82771 throughput[B/s]=8.05574e+07 wait_latency[s]=0.0481676
+Logger#2: max_buffers=0 nid_count=3853874 byte_count[B]=620414640 write_latency[s]=7.79174 throughput[B/s]=7.96247e+07 wait_latency[s]=0.0444333
+Logger#4: max_buffers=0 nid_count=2622098 byte_count[B]=423331120 write_latency[s]=7.7563 throughput[B/s]=5.4579e+07 wait_latency[s]=0.0449878
+Logger#5: max_buffers=0 nid_count=3339986 byte_count[B]=538192640 write_latency[s]=7.75359 throughput[B/s]=6.9412e+07 wait_latency[s]=0.0441854
+Logger#1: max_buffers=0 nid_count=2621110 byte_count[B]=423173376 write_latency[s]=7.76804 throughput[B/s]=5.44762e+07 wait_latency[s]=0.0492092
+Logger#0: max_buffers=0 nid_count=4790490 byte_count[B]=769639728 write_latency[s]=7.83819 throughput[B/s]=9.8191e+07 wait_latency[s]=0.0514946
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	21148921
+wait_time[s]:	0.282478
+write_time[s]:	46.7356
+write_count:	73253
+byte_count[B]:	3405331552
+buffer_count:	1344907
+throughput(thread_sum)[B/s]:	4.3684e+08
+throughput(byte_sum)[B/s]:	4.37183e+08
+throughput(elap)[B/s]:	4.06227e+08
+durable_latency[ms]:	4.5263
+durable_count:	21148921
+durable_epoch:	39551
+abort_counts_:	1197
+commit_counts_:	21148921
+maxrss:	561092 kB
+abort_rate:	0.0001
+latency[ns]:	12861.1768
+throughput[tps]:	2643615
+../../ccbench/silo/numa.rb 0,1 17 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7+134:8,9,14,15,16,17+135:21,22,23,112,113,114+137:4,5,6,10,11+138:12,13,18,19,20,24+139:25,26,27,116,117,118
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	34
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#1: max_buffers=0 nid_count=2629512 byte_count[B]=424491904 write_latency[s]=7.77626 throughput[B/s]=5.45882e+07 wait_latency[s]=0.0459994
+Logger#5: max_buffers=0 nid_count=3431033 byte_count[B]=552734672 write_latency[s]=7.76273 throughput[B/s]=7.12036e+07 wait_latency[s]=0.0442832
+Logger#3: max_buffers=0 nid_count=4047376 byte_count[B]=650720688 write_latency[s]=7.8474 throughput[B/s]=8.29218e+07 wait_latency[s]=0.0470334
+Logger#0: max_buffers=0 nid_count=4925109 byte_count[B]=791157184 write_latency[s]=7.85783 throughput[B/s]=1.00684e+08 wait_latency[s]=0.0522607
+Logger#4: max_buffers=0 nid_count=2630450 byte_count[B]=424641664 write_latency[s]=7.77781 throughput[B/s]=5.45966e+07 wait_latency[s]=0.0462933
+Logger#2: max_buffers=0 nid_count=3729941 byte_count[B]=600559440 write_latency[s]=7.78475 throughput[B/s]=7.71456e+07 wait_latency[s]=0.0432802
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	21393421
+wait_time[s]:	0.27915
+write_time[s]:	46.8068
+write_count:	72770
+byte_count[B]:	3444305552
+buffer_count:	1335874
+throughput(thread_sum)[B/s]:	4.4114e+08
+throughput(byte_sum)[B/s]:	4.41514e+08
+throughput(elap)[B/s]:	4.10874e+08
+durable_latency[ms]:	4.5056
+durable_count:	21393421
+durable_epoch:	39285
+abort_counts_:	1270
+commit_counts_:	21393421
+maxrss:	562932 kB
+abort_rate:	0.0001
+latency[ns]:	12714.1921
+throughput[tps]:	2674177
+../../ccbench/silo/numa.rb 0,1 17 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7+134:8,9,14,15,16,17+135:21,22,23,112,113,114+137:4,5,6,10,11+138:12,13,18,19,20,24+139:25,26,27,116,117,118
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	34
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#4: max_buffers=0 nid_count=2597664 byte_count[B]=419400416 write_latency[s]=7.75392 throughput[B/s]=5.40888e+07 wait_latency[s]=0.0441945
+Logger#0: max_buffers=0 nid_count=4786549 byte_count[B]=768991280 write_latency[s]=7.84079 throughput[B/s]=9.80758e+07 wait_latency[s]=0.0454813
+Logger#3: max_buffers=0 nid_count=4043600 byte_count[B]=650120112 write_latency[s]=7.82558 throughput[B/s]=8.30762e+07 wait_latency[s]=0.0457095
+Logger#1: max_buffers=0 nid_count=2585250 byte_count[B]=417413920 write_latency[s]=7.75501 throughput[B/s]=5.38251e+07 wait_latency[s]=0.0483687
+Logger#2: max_buffers=0 nid_count=3718040 byte_count[B]=598659488 write_latency[s]=7.77709 throughput[B/s]=7.69773e+07 wait_latency[s]=0.0453366
+Logger#5: max_buffers=0 nid_count=3613218 byte_count[B]=581887984 write_latency[s]=7.76784 throughput[B/s]=7.49099e+07 wait_latency[s]=0.0431254
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	21344321
+wait_time[s]:	0.272216
+write_time[s]:	46.7202
+write_count:	72823
+byte_count[B]:	3436473200
+buffer_count:	1337311
+throughput(thread_sum)[B/s]:	4.40953e+08
+throughput(byte_sum)[B/s]:	4.41326e+08
+throughput(elap)[B/s]:	4.09948e+08
+durable_latency[ms]:	4.5255
+durable_count:	21344321
+durable_epoch:	39329
+abort_counts_:	1257
+commit_counts_:	21344321
+maxrss:	562724 kB
+abort_rate:	0.0001
+latency[ns]:	12743.4371
+throughput[tps]:	2668040
+../../ccbench/silo/numa.rb 0,1 17 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7+134:8,9,14,15,16,17+135:21,22,23,112,113,114+137:4,5,6,10,11+138:12,13,18,19,20,24+139:25,26,27,116,117,118
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	34
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=3608839 byte_count[B]=581152896 write_latency[s]=7.76032 throughput[B/s]=7.48878e+07 wait_latency[s]=0.048905
+Logger#5: max_buffers=0 nid_count=3461950 byte_count[B]=557651136 write_latency[s]=7.75403 throughput[B/s]=7.19176e+07 wait_latency[s]=0.0413959
+Logger#0: max_buffers=0 nid_count=4691187 byte_count[B]=753704576 write_latency[s]=7.83208 throughput[B/s]=9.6233e+07 wait_latency[s]=0.051168
+Logger#1: max_buffers=0 nid_count=2631923 byte_count[B]=424847136 write_latency[s]=7.76958 throughput[B/s]=5.46808e+07 wait_latency[s]=0.0464813
+Logger#4: max_buffers=0 nid_count=2615065 byte_count[B]=422149936 write_latency[s]=7.75918 throughput[B/s]=5.44065e+07 wait_latency[s]=0.0440326
+Logger#3: max_buffers=0 nid_count=3923859 byte_count[B]=630932608 write_latency[s]=7.81679 throughput[B/s]=8.07151e+07 wait_latency[s]=0.0504401
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	20932823
+wait_time[s]:	0.282423
+write_time[s]:	46.692
+write_count:	72026
+byte_count[B]:	3370438288
+buffer_count:	1325158
+throughput(thread_sum)[B/s]:	4.32841e+08
+throughput(byte_sum)[B/s]:	4.33107e+08
+throughput(elap)[B/s]:	4.02068e+08
+durable_latency[ms]:	4.5501
+durable_count:	20932823
+durable_epoch:	38971
+abort_counts_:	1223
+commit_counts_:	20932823
+maxrss:	562712 kB
+abort_rate:	0.0001
+latency[ns]:	12993.9517
+throughput[tps]:	2616602
+../../ccbench/silo/numa.rb 0,1 21 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9+134:14,15,16,17,21,22,23+135:112,113,114,115,119,120,121+137:4,5,6,10,11,12,13+138:18,19,20,24,25,26,27+139:116,117,118,122,123,124,125
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	42
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=3656878 byte_count[B]=589013072 write_latency[s]=7.81958 throughput[B/s]=7.53254e+07 wait_latency[s]=0.0667919
+Logger#5: max_buffers=0 nid_count=3988993 byte_count[B]=642151824 write_latency[s]=7.83571 throughput[B/s]=8.1952e+07 wait_latency[s]=0.0507449
+Logger#1: max_buffers=0 nid_count=4122603 byte_count[B]=663529040 write_latency[s]=7.83584 throughput[B/s]=8.46788e+07 wait_latency[s]=0.0565394
+Logger#3: max_buffers=0 nid_count=3983239 byte_count[B]=641230832 write_latency[s]=7.83719 throughput[B/s]=8.1819e+07 wait_latency[s]=0.0588547
+Logger#4: max_buffers=0 nid_count=4357519 byte_count[B]=701114992 write_latency[s]=7.81769 throughput[B/s]=8.96831e+07 wait_latency[s]=0.058359
+Logger#0: max_buffers=0 nid_count=3740009 byte_count[B]=602313936 write_latency[s]=7.79467 throughput[B/s]=7.72726e+07 wait_latency[s]=0.0645349
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	23849241
+wait_time[s]:	0.355825
+write_time[s]:	46.9407
+write_count:	65943
+byte_count[B]:	3839353696
+buffer_count:	1468328
+throughput(thread_sum)[B/s]:	4.90731e+08
+throughput(byte_sum)[B/s]:	4.9075e+08
+throughput(elap)[B/s]:	4.57982e+08
+durable_latency[ms]:	5.2899
+durable_count:	23849241
+durable_epoch:	34956
+abort_counts_:	1731
+commit_counts_:	23849241
+maxrss:	589976 kB
+abort_rate:	0.0001
+latency[ns]:	14088.4993
+throughput[tps]:	2981155
+../../ccbench/silo/numa.rb 0,1 21 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9+134:14,15,16,17,21,22,23+135:112,113,114,115,119,120,121+137:4,5,6,10,11,12,13+138:18,19,20,24,25,26,27+139:116,117,118,122,123,124,125
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	42
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=3978175 byte_count[B]=640495600 write_latency[s]=7.8843 throughput[B/s]=8.12369e+07 wait_latency[s]=0.0508421
+Logger#1: max_buffers=0 nid_count=3983097 byte_count[B]=641282880 write_latency[s]=7.86903 throughput[B/s]=8.14946e+07 wait_latency[s]=0.0520022
+Logger#2: max_buffers=0 nid_count=3598466 byte_count[B]=579742016 write_latency[s]=7.86702 throughput[B/s]=7.36927e+07 wait_latency[s]=0.0487335
+Logger#5: max_buffers=0 nid_count=3933526 byte_count[B]=633351744 write_latency[s]=7.87373 throughput[B/s]=8.04386e+07 wait_latency[s]=0.0484188
+Logger#0: max_buffers=0 nid_count=3747053 byte_count[B]=603516512 write_latency[s]=7.84943 throughput[B/s]=7.68867e+07 wait_latency[s]=0.0514487
+Logger#4: max_buffers=0 nid_count=4288464 byte_count[B]=690140960 write_latency[s]=7.87328 throughput[B/s]=8.76561e+07 wait_latency[s]=0.047561
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	23528781
+wait_time[s]:	0.299006
+write_time[s]:	47.2168
+write_count:	66918
+byte_count[B]:	3788529712
+buffer_count:	1496409
+throughput(thread_sum)[B/s]:	4.81406e+08
+throughput(byte_sum)[B/s]:	4.81422e+08
+throughput(elap)[B/s]:	4.51942e+08
+durable_latency[ms]:	4.8362
+durable_count:	23528781
+durable_epoch:	35625
+abort_counts_:	1740
+commit_counts_:	23528781
+maxrss:	579400 kB
+abort_rate:	0.0001
+latency[ns]:	14280.3859
+throughput[tps]:	2941097
+../../ccbench/silo/numa.rb 0,1 21 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9+134:14,15,16,17,21,22,23+135:112,113,114,115,119,120,121+137:4,5,6,10,11,12,13+138:18,19,20,24,25,26,27+139:116,117,118,122,123,124,125
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	42
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#4: max_buffers=0 nid_count=3980864 byte_count[B]=640871680 write_latency[s]=7.85685 throughput[B/s]=8.15685e+07 wait_latency[s]=0.0496619
+Logger#1: max_buffers=0 nid_count=4162900 byte_count[B]=669997424 write_latency[s]=7.88913 throughput[B/s]=8.49266e+07 wait_latency[s]=0.0499525
+Logger#0: max_buffers=0 nid_count=3989822 byte_count[B]=642305184 write_latency[s]=7.86123 throughput[B/s]=8.17054e+07 wait_latency[s]=0.0522987
+Logger#5: max_buffers=0 nid_count=3562667 byte_count[B]=573960800 write_latency[s]=7.86428 throughput[B/s]=7.29832e+07 wait_latency[s]=0.0500549
+Logger#2: max_buffers=0 nid_count=3993949 byte_count[B]=642965872 write_latency[s]=7.89104 throughput[B/s]=8.14805e+07 wait_latency[s]=0.0495496
+Logger#3: max_buffers=0 nid_count=3562864 byte_count[B]=573992560 write_latency[s]=7.86346 throughput[B/s]=7.29949e+07 wait_latency[s]=0.0492311
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	23253066
+wait_time[s]:	0.300749
+write_time[s]:	47.226
+write_count:	65951
+byte_count[B]:	3744093520
+buffer_count:	1476260
+throughput(thread_sum)[B/s]:	4.75659e+08
+throughput(byte_sum)[B/s]:	4.75682e+08
+throughput(elap)[B/s]:	4.46653e+08
+durable_latency[ms]:	4.9710
+durable_count:	23253066
+durable_epoch:	35144
+abort_counts_:	1656
+commit_counts_:	23253066
+maxrss:	579888 kB
+abort_rate:	0.0001
+latency[ns]:	14449.7086
+throughput[tps]:	2906633
+../../ccbench/silo/numa.rb 0,1 21 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9+134:14,15,16,17,21,22,23+135:112,113,114,115,119,120,121+137:4,5,6,10,11,12,13+138:18,19,20,24,25,26,27+139:116,117,118,122,123,124,125
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	42
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=4263457 byte_count[B]=686140816 write_latency[s]=7.8897 throughput[B/s]=8.69667e+07 wait_latency[s]=0.0545872
+Logger#0: max_buffers=0 nid_count=4276959 byte_count[B]=688300864 write_latency[s]=7.86417 throughput[B/s]=8.75236e+07 wait_latency[s]=0.0565421
+Logger#5: max_buffers=0 nid_count=3231955 byte_count[B]=521101152 write_latency[s]=7.84141 throughput[B/s]=6.64551e+07 wait_latency[s]=0.0528053
+Logger#3: max_buffers=0 nid_count=3243696 byte_count[B]=522979824 write_latency[s]=7.84424 throughput[B/s]=6.66706e+07 wait_latency[s]=0.0543705
+Logger#1: max_buffers=0 nid_count=4459588 byte_count[B]=717521680 write_latency[s]=7.89177 throughput[B/s]=9.09202e+07 wait_latency[s]=0.0552601
+Logger#4: max_buffers=0 nid_count=3779662 byte_count[B]=608733648 write_latency[s]=7.82547 throughput[B/s]=7.77888e+07 wait_latency[s]=0.0535156
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	23255317
+wait_time[s]:	0.327081
+write_time[s]:	47.1568
+write_count:	66915
+byte_count[B]:	3744777984
+buffer_count:	1496503
+throughput(thread_sum)[B/s]:	4.76325e+08
+throughput(byte_sum)[B/s]:	4.76468e+08
+throughput(elap)[B/s]:	4.4672e+08
+durable_latency[ms]:	5.0378
+durable_count:	23255317
+durable_epoch:	35625
+abort_counts_:	1603
+commit_counts_:	23255317
+maxrss:	582004 kB
+abort_rate:	0.0001
+latency[ns]:	14448.3119
+throughput[tps]:	2906914
+../../ccbench/silo/numa.rb 0,1 21 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9+134:14,15,16,17,21,22,23+135:112,113,114,115,119,120,121+137:4,5,6,10,11,12,13+138:18,19,20,24,25,26,27+139:116,117,118,122,123,124,125
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	42
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#5: max_buffers=0 nid_count=3423762 byte_count[B]=551811968 write_latency[s]=7.85938 throughput[B/s]=7.02106e+07 wait_latency[s]=0.0741307
+Logger#2: max_buffers=0 nid_count=4082790 byte_count[B]=657256064 write_latency[s]=7.88222 throughput[B/s]=8.33846e+07 wait_latency[s]=0.0758503
+Logger#4: max_buffers=0 nid_count=3938666 byte_count[B]=634196400 write_latency[s]=7.84576 throughput[B/s]=8.0833e+07 wait_latency[s]=0.0752446
+Logger#3: max_buffers=0 nid_count=3442793 byte_count[B]=554857168 write_latency[s]=7.86055 throughput[B/s]=7.05876e+07 wait_latency[s]=0.0756448
+Logger#0: max_buffers=0 nid_count=4364513 byte_count[B]=702332128 write_latency[s]=7.88202 throughput[B/s]=8.91055e+07 wait_latency[s]=0.107136
+Logger#1: max_buffers=0 nid_count=4335980 byte_count[B]=697766448 write_latency[s]=7.87981 throughput[B/s]=8.85512e+07 wait_latency[s]=0.092138
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	23588504
+wait_time[s]:	0.500145
+write_time[s]:	47.2097
+write_count:	67258
+byte_count[B]:	3798220176
+buffer_count:	1504792
+throughput(thread_sum)[B/s]:	4.82673e+08
+throughput(byte_sum)[B/s]:	4.82725e+08
+throughput(elap)[B/s]:	4.53094e+08
+durable_latency[ms]:	4.9449
+durable_count:	23588504
+durable_epoch:	35823
+abort_counts_:	1731
+commit_counts_:	23588504
+maxrss:	580612 kB
+abort_rate:	0.0001
+latency[ns]:	14244.2268
+throughput[tps]:	2948563
+../../ccbench/silo/numa.rb 0,1 25 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9,14+134:15,16,17,21,22,23,112,113+135:114,115,119,120,121,126,127,128,129+137:4,5,6,10,11,12,13,18+138:19,20,24,25,26,27,116,117+139:118,122,123,124,125,130,131,132,136
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	50
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#4: max_buffers=0 nid_count=5611862 byte_count[B]=901919728 write_latency[s]=7.93603 throughput[B/s]=1.13649e+08 wait_latency[s]=0.0476853
+Logger#5: max_buffers=0 nid_count=3389714 byte_count[B]=546880272 write_latency[s]=7.85715 throughput[B/s]=6.96029e+07 wait_latency[s]=0.0468436
+Logger#3: max_buffers=0 nid_count=5235979 byte_count[B]=841778144 write_latency[s]=7.97069 throughput[B/s]=1.05609e+08 wait_latency[s]=0.0482111
+Logger#1: max_buffers=0 nid_count=5560155 byte_count[B]=893646672 write_latency[s]=7.96101 throughput[B/s]=1.12253e+08 wait_latency[s]=0.0495153
+Logger#0: max_buffers=0 nid_count=5139074 byte_count[B]=826273920 write_latency[s]=7.95759 throughput[B/s]=1.03835e+08 wait_latency[s]=0.0534634
+Logger#2: max_buffers=0 nid_count=3518585 byte_count[B]=567499808 write_latency[s]=7.866 throughput[B/s]=7.21459e+07 wait_latency[s]=0.0534032
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	28455369
+wait_time[s]:	0.299122
+write_time[s]:	47.5485
+write_count:	59744
+byte_count[B]:	4577998544
+buffer_count:	1572500
+throughput(thread_sum)[B/s]:	5.77094e+08
+throughput(byte_sum)[B/s]:	5.77684e+08
+throughput(elap)[B/s]:	5.4608e+08
+durable_latency[ms]:	5.5042
+durable_count:	28455369
+durable_epoch:	31446
+abort_counts_:	2395
+commit_counts_:	28455369
+maxrss:	598772 kB
+abort_rate:	0.0001
+latency[ns]:	14057.1016
+throughput[tps]:	3556921
+../../ccbench/silo/numa.rb 0,1 25 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9,14+134:15,16,17,21,22,23,112,113+135:114,115,119,120,121,126,127,128,129+137:4,5,6,10,11,12,13,18+138:19,20,24,25,26,27,116,117+139:118,122,123,124,125,130,131,132,136
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	50
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=3721287 byte_count[B]=599956736 write_latency[s]=7.8468 throughput[B/s]=7.64588e+07 wait_latency[s]=0.0934241
+Logger#3: max_buffers=0 nid_count=5092502 byte_count[B]=818844144 write_latency[s]=7.93805 throughput[B/s]=1.03154e+08 wait_latency[s]=0.0927532
+Logger#0: max_buffers=0 nid_count=5108492 byte_count[B]=821402480 write_latency[s]=7.91164 throughput[B/s]=1.03822e+08 wait_latency[s]=0.0941305
+Logger#4: max_buffers=0 nid_count=5513296 byte_count[B]=886171776 write_latency[s]=7.90214 throughput[B/s]=1.12143e+08 wait_latency[s]=0.0844703
+Logger#5: max_buffers=0 nid_count=3391933 byte_count[B]=547260352 write_latency[s]=7.82873 throughput[B/s]=6.99041e+07 wait_latency[s]=0.0852055
+Logger#1: max_buffers=0 nid_count=5453408 byte_count[B]=876588800 write_latency[s]=7.92519 throughput[B/s]=1.10608e+08 wait_latency[s]=0.0936803
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	28280918
+wait_time[s]:	0.543664
+write_time[s]:	47.3525
+write_count:	60013
+byte_count[B]:	4550224288
+buffer_count:	1581123
+throughput(thread_sum)[B/s]:	5.7609e+08
+throughput(byte_sum)[B/s]:	5.76555e+08
+throughput(elap)[B/s]:	5.42798e+08
+durable_latency[ms]:	5.6697
+durable_count:	28280918
+durable_epoch:	31617
+abort_counts_:	2581
+commit_counts_:	28280918
+maxrss:	604388 kB
+abort_rate:	0.0001
+latency[ns]:	14143.8154
+throughput[tps]:	3535114
+../../ccbench/silo/numa.rb 0,1 25 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9,14+134:15,16,17,21,22,23,112,113+135:114,115,119,120,121,126,127,128,129+137:4,5,6,10,11,12,13,18+138:19,20,24,25,26,27,116,117+139:118,122,123,124,125,130,131,132,136
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	50
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#3: max_buffers=0 nid_count=4907479 byte_count[B]=789200336 write_latency[s]=7.96202 throughput[B/s]=9.91206e+07 wait_latency[s]=0.0651725
+Logger#2: max_buffers=0 nid_count=4209285 byte_count[B]=677990784 write_latency[s]=7.89545 throughput[B/s]=8.58711e+07 wait_latency[s]=0.0695923
+Logger#5: max_buffers=0 nid_count=2897898 byte_count[B]=468169600 write_latency[s]=7.81637 throughput[B/s]=5.98961e+07 wait_latency[s]=0.0641997
+Logger#0: max_buffers=0 nid_count=5423592 byte_count[B]=871777904 write_latency[s]=7.94891 throughput[B/s]=1.09673e+08 wait_latency[s]=0.0672857
+Logger#4: max_buffers=0 nid_count=5398121 byte_count[B]=867702544 write_latency[s]=7.92236 throughput[B/s]=1.09526e+08 wait_latency[s]=0.0671106
+Logger#1: max_buffers=0 nid_count=5868197 byte_count[B]=942914992 write_latency[s]=7.9622 throughput[B/s]=1.18424e+08 wait_latency[s]=0.0706393
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	28704572
+wait_time[s]:	0.404
+write_time[s]:	47.5073
+write_count:	59759
+byte_count[B]:	4617756160
+buffer_count:	1565285
+throughput(thread_sum)[B/s]:	5.8251e+08
+throughput(byte_sum)[B/s]:	5.83206e+08
+throughput(elap)[B/s]:	5.5084e+08
+durable_latency[ms]:	5.6482
+durable_count:	28704572
+durable_epoch:	31302
+abort_counts_:	2527
+commit_counts_:	28704572
+maxrss:	601792 kB
+abort_rate:	0.0001
+latency[ns]:	13935.0643
+throughput[tps]:	3588071
+../../ccbench/silo/numa.rb 0,1 25 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9,14+134:15,16,17,21,22,23,112,113+135:114,115,119,120,121,126,127,128,129+137:4,5,6,10,11,12,13,18+138:19,20,24,25,26,27,116,117+139:118,122,123,124,125,130,131,132,136
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	50
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#2: max_buffers=0 nid_count=3882019 byte_count[B]=625763296 write_latency[s]=7.88507 throughput[B/s]=7.93605e+07 wait_latency[s]=0.0604431
+Logger#3: max_buffers=0 nid_count=4985729 byte_count[B]=801840448 write_latency[s]=7.94549 throughput[B/s]=1.00918e+08 wait_latency[s]=0.0641906
+Logger#1: max_buffers=0 nid_count=5535158 byte_count[B]=889748736 write_latency[s]=7.94111 throughput[B/s]=1.12043e+08 wait_latency[s]=0.0616003
+Logger#5: max_buffers=0 nid_count=3075120 byte_count[B]=496660320 write_latency[s]=7.83702 throughput[B/s]=6.33736e+07 wait_latency[s]=0.0572218
+Logger#4: max_buffers=0 nid_count=5494219 byte_count[B]=883198336 write_latency[s]=7.9176 throughput[B/s]=1.11549e+08 wait_latency[s]=0.0587265
+Logger#0: max_buffers=0 nid_count=5077444 byte_count[B]=816514880 write_latency[s]=7.92331 throughput[B/s]=1.03052e+08 wait_latency[s]=0.0693987
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	28049689
+wait_time[s]:	0.371581
+write_time[s]:	47.4496
+write_count:	61208
+byte_count[B]:	4513726016
+buffer_count:	1612280
+throughput(thread_sum)[B/s]:	5.70296e+08
+throughput(byte_sum)[B/s]:	5.7076e+08
+throughput(elap)[B/s]:	5.38439e+08
+durable_latency[ms]:	5.4833
+durable_count:	28049689
+durable_epoch:	32240
+abort_counts_:	2345
+commit_counts_:	28049689
+maxrss:	602292 kB
+abort_rate:	0.0001
+latency[ns]:	14260.4082
+throughput[tps]:	3506211
+../../ccbench/silo/numa.rb 0,1 25 3
+numactl --cpunodebind=0,1 --interleave=0,1 ../../ccbench/silo/test_nlog/silo.exe -extime 8 -clocks_per_us 2095 -rratio 0 -epoch_time 0.001 -buffer_num 4 -buffer_size 512 -affinity 133:0,1,2,3,7,8,9,14+134:15,16,17,21,22,23,112,113+135:114,115,119,120,121,126,127,128,129+137:4,5,6,10,11,12,13,18+138:19,20,24,25,26,27,116,117+139:118,122,123,124,125,130,131,132,136
+#FLAGS_clocks_per_us:	2095
+#FLAGS_epoch_time:	0.001
+#FLAGS_extime:		8
+#FLAGS_max_ope:		10
+#FLAGS_rmw:		0
+#FLAGS_rratio:		0
+#FLAGS_thread_num:	50
+#FLAGS_logger_num:	6
+#FLAGS_buffer_num:	4
+#FLAGS_buffer_size:	512
+#FLAGS_tuple_num:	1000000
+#FLAGS_ycsb:		1
+#FLAGS_zipf_skew:	0
+Back pressure.
+Logger#0: max_buffers=0 nid_count=5104398 byte_count[B]=820771136 write_latency[s]=7.93837 throughput[B/s]=1.03393e+08 wait_latency[s]=0.0653355
+Logger#5: max_buffers=0 nid_count=3589094 byte_count[B]=578832608 write_latency[s]=7.88328 throughput[B/s]=7.34253e+07 wait_latency[s]=0.0580487
+Logger#1: max_buffers=0 nid_count=5465331 byte_count[B]=878520448 write_latency[s]=7.95244 throughput[B/s]=1.10472e+08 wait_latency[s]=0.0611919
+Logger#4: max_buffers=0 nid_count=5604941 byte_count[B]=900857920 write_latency[s]=7.93491 throughput[B/s]=1.13531e+08 wait_latency[s]=0.0579895
+Logger#3: max_buffers=0 nid_count=5127452 byte_count[B]=824460240 write_latency[s]=7.9616 throughput[B/s]=1.03555e+08 wait_latency[s]=0.0603876
+Logger#2: max_buffers=0 nid_count=3489615 byte_count[B]=562916256 write_latency[s]=7.86774 throughput[B/s]=7.15474e+07 wait_latency[s]=0.0638538
+#ShowOptParameters(): ADD_ANALYSIS 0: BACK_OFF 0: KEY_SIZE 8: MASSTREE_USE 1: NO_WAIT_LOCKING_IN_VALIDATION 1: PARTITION_TABLE 0: PROCEDURE_SORT 0: SLEEP_READ_PHASE 0: VAL_SIZE 4: WAL 0
+mean_max_buffers:	0
+nid_count:	28380831
+wait_time[s]:	0.366807
+write_time[s]:	47.5383
+write_count:	60449
+byte_count[B]:	4566358608
+buffer_count:	1590426
+throughput(thread_sum)[B/s]:	5.75923e+08
+throughput(byte_sum)[B/s]:	5.76338e+08
+throughput(elap)[B/s]:	5.44712e+08
+durable_latency[ms]:	5.6252
+durable_count:	28380831
+durable_epoch:	31804
+abort_counts_:	3149
+commit_counts_:	28380831
+maxrss:	600576 kB
+abort_rate:	0.0001
+latency[ns]:	14094.0235
+throughput[tps]:	3547603
