@@ -11,7 +11,7 @@ def titles(key)
   when 0
     "no logging"
   else
-    "#{dev}, #{n} loggers"
+    "#{n} loggers"
   end
 end
 
@@ -84,7 +84,8 @@ outfile='wo4-bw'
     set xlabel:"# of worker threads"
     #set ylabel:'"throughput [Mtps]"'
     set ylabel:'"write speed [MB/s]"'
-    set title:"Silo YCSB write=100%, #{buffer_num} buffers #{buffer_size} KiB each"
+    #set title:"Silo YCSB write=100%, #{buffer_num} buffers #{buffer_size} KiB each"
+    set title:"(b) Write Performance"
     #set logscale:'y'
     set xrange:0..250
     #set yrange:0..250

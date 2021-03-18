@@ -84,7 +84,8 @@ outfile='wo4-latency'
     set xlabel:"# of worker threads"
     #set ylabel:'"throughput [Mtps]"'
     set ylabel:'"latency [ms]"'
-    set title:"Silo YCSB write=100%, #{buffer_num} buffers #{buffer_size} KiB each"
+    #set title:"Silo YCSB write=100%, #{buffer_num} buffers #{buffer_size} KiB each"
+    set title:"(c) Persistent Latency"
     set xrange:0..250
     #set yrange:0..250
     set logscale:'y'

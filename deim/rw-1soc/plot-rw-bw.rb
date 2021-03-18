@@ -84,7 +84,8 @@ outfile='rw1-bw'
     set xlabel:"# of worker threads"
     #set ylabel:'"throughput [Mtps]"'
     set ylabel:'"write speed [MB/s]"'
-    set title:"Silo YCSB write=50%, #{buffer_num} buffers #{buffer_size} KiB each"
+    #set title:"Silo YCSB write=50%, #{buffer_num} buffers #{buffer_size} KiB each"
+    set title:"(b) Write Performance"
     #set logscale:'y'
     set xrange:0..60
     set yrange:0..1000

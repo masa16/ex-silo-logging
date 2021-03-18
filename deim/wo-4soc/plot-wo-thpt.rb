@@ -81,11 +81,13 @@ outfile='wo4-thpt'
     end
     set xlabel:"# of worker threads"
     set ylabel:'"throughput [Mtps]"'
-    set title:"Silo YCSB write=100%, #{buffer_num} buffers #{buffer_size} KiB each"
+    #set title:"Silo YCSB write=100%, #{buffer_num} buffers #{buffer_size} KiB each"
+    set title:"(a) Transaction Throughput"
     set xrange:0..250
     set yrange:0..50
     #set :nokey
-    set key:'left'
+    set key:'left top'
+    #set key:'outside',font:"Helvetica,24"
     plot(*dat)
   end
 end
